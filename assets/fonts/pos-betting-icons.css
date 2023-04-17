@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'pos-betting';
+  src:  url('pos-betting.eot?8rmejf');
+  src:  url('pos-betting.eot?8rmejf#iefix') format('embedded-opentype'),
+    url('pos-betting.ttf?8rmejf') format('truetype'),
+    url('pos-betting.woff?8rmejf') format('woff'),
+    url('pos-betting.svg?8rmejf#pos-betting') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.pos-beticons {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pos-betting' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.betslip-empty:before {
+  content: "\e960";
+}
+.minus1:before {
+  content: "\e95e";
+}
+.plus1:before {
+  content: "\e95f";
+}
+.slots:before {
+  content: "\e95d";
+}
+.chip:before {
+  content: "\e94b";
+}
+.clover:before {
+  content: "\e94c";
+}
+.cherry:before {
+  content: "\e94d";
+}
+.cards-fill:before {
+  content: "\e94e";
+}
+.dice-3:before {
+  content: "\e94f";
+}
+.newbadge:before {
+  content: "\e950";
+}
+.luck:before {
+  content: "\e951";
+}
+.cards:before {
+  content: "\e952";
+}
+.pokertable:before {
+  content: "\e953";
+}
+.dice-2:before {
+  content: "\e954";
+}
+.crown:before {
+  content: "\e955";
+}
+.diamond:before {
+  content: "\e956";
+}
+.whistle:before {
+  content: "\e957";
+}
+.medal:before {
+  content: "\e958";
+}
+.dice1:before {
+  content: "\e959";
+}
+.world:before {
+  content: "\e95a";
+}
+.best-collection:before {
+  content: "\e95b";
+}
+.bitcoin:before {
+  content: "\e95c";
+}
+.spades1:before {
+  content: "\e94a";
+}
+.poker-chips:before {
+  content: "\e919";
+}
+.roulette:before {
+  content: "\e91b";
+}
+.virtualgames:before {
+  content: "\e93d";
+}
+.slot-machine:before {
+  content: "\e948";
+}
+.soccer-shoe:before {
+  content: "\e949";
+}
+.play-in:before {
+  content: "\e946";
+}
+.play-out:before {
+  content: "\e947";
+}
+.scoreboard:before {
+  content: "\e945";
+}
+.red-card:before {
+  content: "\e943";
+}
+.yellow-card:before {
+  content: "\e944";
+}
+.corner-icon:before {
+  content: "\e942";
+}
+.gambling-montenegro:before {
+  content: "\e941";
+}
+.over18:before {
+  content: "\e939";
+}
+.gamcare:before {
+  content: "\e93a";
+}
+.star:before {
+  content: "\e93b";
+}
+.star-o:before {
+  content: "\e93c";
+}
+.chevron-right:before {
+  content: "\e93e";
+}
+.chevron-down:before {
+  content: "\e93f";
+}
+.chevron-up:before {
+  content: "\e940";
+}
+.statistics:before {
+  content: "\e938";
+}
+.livebetting:before {
+  content: "\e937";
+}
+.stream-icon:before {
+  content: "\e908";
+}
+.field-pitch:before {
+  content: "\e936";
+}
+.resize-two-in:before {
+  content: "\e909";
+}
+.resize-two:before {
+  content: "\e935";
+}
+.top-leagues:before {
+  content: "\e901";
+}
+.champions-league:before {
+  content: "\e902";
+}
+.serie-a:before {
+  content: "\e903";
+}
+.bundesliga:before {
+  content: "\e904";
+}
+.ligue-1:before {
+  content: "\e905";
+}
+.premier-league:before {
+  content: "\e906";
+}
+.la-liga:before {
+  content: "\e900";
+}
+.super-toto-turkey:before {
+  content: "\e90a";
+}
+.world-cup-2018:before {
+  content: "\e90b";
+}
+.blank:before {
+  content: "\e907";
+}
+.soccer:before {
+  content: "\e934";
+}
+.basketball:before {
+  content: "\e90c";
+}
+.tennis:before {
+  content: "\e90d";
+}
+.ice-hockey:before {
+  content: "\e90e";
+}
+.motorsport:before {
+  content: "\e90f";
+}
+.volleyball:before {
+  content: "\e910";
+}
+.american-football:before {
+  content: "\e911";
+}
+.rugby:before {
+  content: "\e912";
+}
+.futsal:before {
+  content: "\e913";
+}
+.handball:before {
+  content: "\e914";
+}
+.snooker:before {
+  content: "\e915";
+}
+.baseball:before {
+  content: "\e916";
+}
+.boxing:before {
+  content: "\e917";
+}
+.mma:before {
+  content: "\e918";
+}
+.golf:before {
+  content: "\e91a";
+}
+.winter-sports:before {
+  content: "\e91c";
+}
+.table-tennis:before {
+  content: "\e91d";
+}
+.waterpolo:before {
+  content: "\e91e";
+}
+.darts:before {
+  content: "\e91f";
+}
+.beach-volleyball:before {
+  content: "\e920";
+}
+.beach-soccer:before {
+  content: "\e921";
+}
+.squash:before {
+  content: "\e922";
+}
+.sailing:before {
+  content: "\e923";
+}
+.bowls:before {
+  content: "\e924";
+}
+.aussie_rules:before {
+  content: "\e925";
+}
+.olympics:before {
+  content: "\e926";
+}
+.curling:before {
+  content: "\e927";
+}
+.floorball:before {
+  content: "\e928";
+}
+.bandy:before {
+  content: "\e929";
+}
+.fantasy:before {
+  content: "\e92a";
+}
+.badminton:before {
+  content: "\e92b";
+}
+.pesapallo:before {
+  content: "\e92c";
+}
+.league-of-legends:before {
+  content: "\e92d";
+}
+.specials:before {
+  content: "\e92e";
+}
+.counter-strike:before {
+  content: "\e92f";
+}
+.field-hockey:before {
+  content: "\e930";
+}
+.starcraft:before {
+  content: "\e931";
+}
+.fencing:before {
+  content: "\e932";
+}
+.soccer-special:before {
+  content: "\e933";
+}

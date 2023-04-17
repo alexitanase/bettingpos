@@ -1,0 +1,241 @@
+
+.cutom_ticket_style {
+    color: #000;
+}
+.part-logo {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+.copy_bg {
+    display:none;
+}
+.part-head-desc {
+    padding:5px 0;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    background: #f8f8f8;
+}
+.part-head-desc p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.part-head-desk span {
+    font-size: 12px;
+}
+.part-head-info {
+    /*border-bottom: 2px solid #000;*/
+    padding:10px 0;
+}
+.part-head-info .left-part,
+.part-head-info .right-part {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.part-head-info span {
+    display: block;
+}
+
+.part-ticket-type {
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin:0 2px;
+    border:1px solid #000;
+    background: #ddd;
+    line-height: 21px;
+}
+.part-events {
+    font-size: 11px;
+    line-height: 21px;
+    margin: 0 2px;
+    border-left: 1px solid #000 ;
+    border-right: 1px solid #000 ;
+}
+.part-events .element-event {
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+}
+.part-events .element-event .span-block {
+    display: block;
+    position: relative;
+    padding:0 5px;
+    text-align: left;
+    line-height: 14px;
+    margin: 2px 0;
+}
+.part-events .element-event span b {
+}
+.part-events .element-event .force-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.part-details-bet {
+    margin: 2px;
+    border: 1px solid #000;
+}
+.part-details-bet .element-detail {
+    /*display: inline-block;*/
+    /*width: calc(20% - 2px);*/
+    vertical-align: top;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.part-details-bet .element-detail:last-child {
+    vertical-align: top;
+    text-align: center;
+    border-bottom: 0px;
+}
+.part-details-bet .element-detail .det-head {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    margin:auto;
+    /*background: #f8f8f8;*/
+    font-size: 16px;
+    /*padding:5px 0;*/
+    line-height: 24px;
+    border-bottom: 1px solid #000;
+}
+.part-details-bet .element-detail .det-body {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    /*padding:5px 0;*/
+}
+.part-info-bet, .part-system {
+    margin: 2px;
+    border: 1px solid #000;
+}
+.part-info-bet .element-bet-info, .part-system .element-bet-info {
+    font-size: 12px;
+    padding:0 5px;
+    text-align: left;
+    position: relative;
+    line-height: 16px;
+}
+.part-info-bet .element-bet-info .force-right, .part-system .element-bet-info .force-right{
+    position: absolute;
+    right:5px;
+}
+.part-info-bet .element-bet-info.summary, .part-system .element-bet-info.summary {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding:5px 0;
+    background: #f8f8f8;
+}
+.part-info-bet .element-bet-info.win, .part-system .element-bet-info.win {
+    font-size: 18px;
+    font-weight: bold;
+    padding:15px 5px;
+    border-bottom: 0;
+    background: #fff;
+}
+.part-info-bet .element-bet-info.win .force-right, .part-system .element-bet-info.win .force-right {
+    top:15px;
+}
+
+.part-info-bet .element-bet-info2{
+    padding: 10px;
+    font-size: 16px;
+}
+.part-info-bet .element-bet-info2 div{
+    line-height: 17px;
+}
+.part-info-bet .element-bet-info2 .date_time{
+    text-align: center;
+    font-size: 13px;
+}
+.part-info-bet .element-bet-info2 .bet{
+    text-align: center;
+    font-weight: bold;
+}
+.part-plus {
+    text-align: center;
+    padding:10px 5px;
+    font-size: 10px;
+}
+.part-plus img {
+    width: 30px;
+    margin-bottom: 10px;
+}
+.part-footer {
+    padding:10px 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.part-system .element-row .column {
+    width:calc(33.32% - 2px);
+    display:inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding:5px 0;
+}
+.part-system .element-row.head .column {
+    font-weight: bold;
+}
+.part-system .element-row .column:last-child {
+    width:33.32%;
+    border-right: 0;
+}
+.span-block .cell {
+    display: block;
+    /*display: table-cell;*/
+}
+.span-block .cell1,.span-block .cell2,.span-block .cell3 {
+    display: inline-block;
+
+}
+.cell1 {
+    width: 30%;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+}
+.cell2 {
+    width: 50%;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: left;
+}
+.cell3 {
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+}
+
+.cell1 .fa-check-circle {
+    font-size: var(--font-size13);
+}
+.element-bet-info .align-center {
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+}
+.element-bet-info .align-center span {
+    font-weight: 100;
+}
+
+.xlive-logo {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background: #989898;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: #363636;
+}

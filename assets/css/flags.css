@@ -1,0 +1,2241 @@
+/*CSS HANDLER */
+
+.mitem{
+    /*background-position: 15px center;*/
+    text-indent: 10px;
+    white-space: nowrap;
+}
+.mitem:after, .citem:after {
+    background: no-repeat center;
+    content: "";
+    height: 16px;
+    left: 25px;
+    position: absolute;
+    top: 15px !important;
+    width: 16px;
+    background-size: 100% 100%;
+}
+ul a.fmitem:after {
+    background: no-repeat center;
+    content: "";
+    height: 16px;
+    left: 25px;
+    position: absolute;
+    top: 15px;
+    width: 16px;
+    background-size: 100% 100%;
+}
+
+.mitem:after {
+    left: 14px !important;
+}
+
+
+
+#groupmenu.mitem:after {
+    left: 7px;
+}
+
+#cate_9973313.citem:after {
+    background-image: url("../imgs/flags/russia2018.png")!important;
+}
+#cate_9973203.citem:after {
+    background-image: url("../imgs/flags/esibizionitennis.png")!important;
+}
+.Montevideo:after,
+.Uruguay:after,
+ul.Uruguay a.fmitem:after{
+    background-image: url("../imgs/flags/uruguay.svg")!important;
+}
+
+.Imola:after,
+.Modena:after,
+.San.Benedetto:after,
+.A1.Superlega:after,
+.manimenu.Italiana .mitem:after,
+.manimenu.Italia .mitem:after,
+.manimenu.Italy.mitem:after,
+#m99973674:after,
+.Italia:after,
+.Italy:after,
+.Recanati:after,
+.SUPERCOPPA:after,
+.Supercoppa.Italiana:after,
+.Milan:after,
+.Milano:after,
+.Torino:after,
+.Este:after,
+.Padova:after,
+.Todi:after,
+.Sassuolo:after,
+.Duino:after,
+.Busto.Arsizio:after,
+.Como:after,
+.Bagnatica:after,
+.Lecco:after,
+.Andria:after,
+.Brescia:after,
+.Lega.Pro:after,
+.Trieste:after,
+.Grado:after,
+.Caltanisetta:after, /* errore apposito */
+.Caltanissetta:after,
+.Vicenza:after,
+.Roma:after,
+#cate_11 .mitem:after,
+.Genova:after,
+.Florence:after,
+.Firenze:after,
+.Piombino:after,
+.Primavera:after,
+.Mestre:after,
+.Pula:after,
+.Napoli:after,
+.Bergamo:after,
+.Misano:after,
+.Atalanta:after,
+.Bologna:after,
+.Palermo:after,
+.Juventus:after,
+.Cagliari:after,
+#m1974:after,
+#m2697:after,
+#m3299:after,
+#m8256:after,
+.Imola a.fmitem:after,
+.Modena a.fmitem:after,
+.San.Benedetto a.fmitem:after,
+.A1.Superlega a.fmitem:after,
+.manimenu.Italiana .mitem:after,
+.manimenu.Italia .mitem:after,
+.manimenu.Italy.mitem:after,
+#m99973674:after,
+.Italia a.fmitem:after,
+.Italy a.fmitem:after,
+.Recanati a.fmitem:after,
+.SUPERCOPPA a.fmitem:after,
+.Supercoppa.Italiana a.fmitem:after,
+.Milan a.fmitem:after,
+.Milano a.fmitem:after,
+.Torino a.fmitem:after,
+.Este a.fmitem:after,
+.Padova a.fmitem:after,
+.Todi a.fmitem:after,
+.Sassuolo a.fmitem:after,
+.Duino a.fmitem:after,
+.Busto.Arsizio a.fmitem:after,
+.Como a.fmitem:after,
+.Bagnatica a.fmitem:after,
+.Lecco a.fmitem:after,
+.Andria a.fmitem:after,
+.Brescia a.fmitem:after,
+.Lega.Pro a.fmitem:after,
+.Trieste a.fmitem:after,
+.Grado a.fmitem:after,
+.Caltanisetta a.fmitem:after, /* errore apposito */
+.Caltanissetta a.fmitem:after,
+.Vicenza a.fmitem:after,
+.Roma a.fmitem:after,
+#cate_11 .mitem:after,
+.Genova a.fmitem:after,
+.Florence a.fmitem:after,
+.Firenze a.fmitem:after,
+.Piombino a.fmitem:after,
+.Primavera a.fmitem:after,
+.Mestre a.fmitem:after,
+.Pula a.fmitem:after,
+.Napoli a.fmitem:after,
+.Bergamo a.fmitem:after,
+.Misano a.fmitem:after,
+.Atalanta a.fmitem:after,
+.Bologna a.fmitem:after,
+.Palermo a.fmitem:after,
+.Juventus a.fmitem:after,
+.Cagliari a.fmitem:after,
+#m1974:after,
+#m2697:after,
+#m3299:after,
+#m8256:after,
+ul.Italy a.fmitem:after,
+ul.Italia a.fmitem:after
+{
+    background-image: url("../imgs/flags/italy.svg")!important;
+}
+
+.Uk\&ireland:after,
+ul.Uk\&ireland a.fmitem:after
+{
+    background-image: url("../imgs/flags/united-kingdom.svg")!important;
+}
+
+.Champions.Cup.Playoff:after,
+.Wolrd:after, /* errore apposito */
+.FIFA:after,
+.Twenty20:after,
+.Internazionale:after,
+.International:after,
+.INTERNATIONAL:after,
+.Amichevoli:after,
+.Friendly:after,
+.Champions.Cup:after,
+.World:after,
+.Player.Specials.Punti:after,
+.Diamond:after,
+.Federation.Cup:after,
+.Davis:after,
+.Teams:after,
+.Test.Series:after,
+.Hague:after,
+.Grand.Slam.of.Darts:after,
+#cate_182 .mitem:after,
+.Guinness:after,
+.Emirates:after,
+.Fantasy.Basket:after,
+.Levi:after,
+.Campionato.Del.Mondo:after,
+#m1644:after,
+#m3137:after,
+#m3675:after,
+#m870:after,
+#m3384:after,
+#m56:after,
+.One.Day:after,
+.Super:after,
+.Currie:after,
+.Carnegie:after,
+.The.Rugby.Championship:after,
+.The.Rugby.Championsip:after,
+.Individual.Time.Trial:after,
+.Road.Race.Women:after,
+.Road.Race.Men:after,
+.U23.AFC.Championship:after,
+.Euroleague.Men:after,
+.League.Totals:after,
+#m8923:after,
+#cate_74007 a:after,
+.Challenge.Cup.Men:after,
+.Challenge.Cup.Women:after,
+.Champions.Cup.Playoff a.fmitem:after,
+.Wolrd a.fmitem:after, /* errore apposito */
+.FIFA a.fmitem:after,
+.Twenty20 a.fmitem:after,
+.Internazionale a.fmitem:after,
+.International a.fmitem:after,
+.INTERNATIONAL a.fmitem:after,
+.Amichevoli a.fmitem:after,
+.Friendly a.fmitem:after,
+.Champions.Cup a.fmitem:after,
+.World a.fmitem:after,
+.Player.Specials.Punti a.fmitem:after,
+.Diamond a.fmitem:after,
+.Federation.Cup a.fmitem:after,
+.Davis a.fmitem:after,
+.Teams a.fmitem:after,
+.Test.Series a.fmitem:after,
+.Hague a.fmitem:after,
+.Grand.Slam.of.Darts a.fmitem:after,
+#cate_182 .mitem a.fmitem:after,
+.Guinness a.fmitem:after,
+.Emirates a.fmitem:after,
+.Fantasy.Basket a.fmitem:after,
+.Levi a.fmitem:after,
+.Campionato.Del.Mondo a.fmitem:after,
+#m1644:after,
+#m3137:after,
+#m3675:after,
+#m870:after,
+#m3384:after,
+#m56:after,
+.One.Day a.fmitem:after,
+.Super a.fmitem:after,
+.Currie a.fmitem:after,
+.Carnegie a.fmitem:after,
+.The.Rugby.Championship a.fmitem:after,
+.The.Rugby.Championsip a.fmitem:after,
+.Individual.Time.Trial a.fmitem:after,
+.Road.Race.Women a.fmitem:after,
+.Road.Race.Men a.fmitem:after,
+.U23.AFC.Championship a.fmitem:after,
+.Euroleague.Men a.fmitem:after,
+.League.Totals a.fmitem:after,
+#m8923:after,
+#cate_74007 a:after,
+.Challenge.Cup.Men a.fmitem:after,
+.Challenge.Cup.Women a.fmitem:after,
+.Rugby.Pro:after   {
+    background-image: url("../imgs/flags/international.png")!important;
+}
+
+.Robo.Direct.Pro12:after,
+.PRO12:after,
+.Europe:after,
+.Rugby.Champions.Cup:after,
+.Rabo:after,
+.Adriatic.League:after,
+.Europee:after,
+.Europeo:after,
+.VTB:after,
+.Europa:after,
+.Europe:after,
+.Six.Nations:after,
+#m1418:after,
+.Baltic:after,
+.SEHA:after,
+.Nordea.Master:after,
+.EHF:after,
+.Eurocup:after,
+.Euro:after,
+.Cev:after,
+.Balkan:after,
+.Rugby.Challenge:after,
+.Rugby.Challange:after,
+.Coppa.Challenge:after,
+.Champions.League:after,
+.Champions.Top.Scorer:after,
+.Eurochallenge:after,
+.Europei:after,
+#cate_9973016 .mitem:after,
+#cate_9973075 .mitem:after,
+#cate_233 .mitem:after,
+#cate_160 .mitem:after,
+#cate_159 .mitem:after,
+.UEFA:after,
+.European:after,
+.Eurolega:after,
+.Amlin:after,
+.Eurobasket:after,
+.AMLIN:after,
+.Heineken:after,
+.Euroliga:after,
+#m99973728:after,
+#m99973727:after,
+#cate_9973065 .mitem:after ,
+#m5510:after,
+#m5511:after,
+#m5512:after,
+#m5513:after,
+#m5514:after,
+#m5515:after,
+#m33:after,
+.Liga.ABA:after ,
+.CEV.Cup:after,
+.Robo.Direct.Pro12 a.fmitem:after,
+.PRO12 a.fmitem:after,
+.Europe a.fmitem:after,
+.Rugby.Champions.Cup a.fmitem:after,
+.Rabo a.fmitem:after,
+.Adriatic.League a.fmitem:after,
+.Europee a.fmitem:after,
+.Europeo a.fmitem:after,
+.VTB a.fmitem:after,
+.Europa a.fmitem:after,
+.Europe a.fmitem:after,
+.Six.Nations a.fmitem:after,
+#m1418 a.fmitem:after,
+.Baltic a.fmitem:after,
+.SEHA a.fmitem:after,
+.Nordea.Master a.fmitem:after,
+.EHF a.fmitem:after,
+.Eurocup a.fmitem:after,
+.Euro a.fmitem:after,
+.Cev a.fmitem:after,
+.Balkan a.fmitem:after,
+.Rugby.Challenge a.fmitem:after,
+.Rugby.Challange a.fmitem:after,
+.Coppa.Challenge a.fmitem:after,
+.Champions.League a.fmitem:after,
+.Champions.Top.Scorer a.fmitem:after,
+.Eurochallenge a.fmitem:after,
+.Europei a.fmitem:after,
+#cate_9973016 .mitem a.fmitem:after,
+#cate_9973075 .mitem a.fmitem:after,
+#cate_233 .mitem a.fmitem:after,
+#cate_160 .mitem a.fmitem:after,
+#cate_159 .mitem a.fmitem:after,
+.UEFA a.fmitem:after,
+.European a.fmitem:after,
+.Eurolega a.fmitem:after,
+.Amlin a.fmitem:after,
+.Eurobasket a.fmitem:after,
+.AMLIN a.fmitem:after,
+.Heineken a.fmitem:after,
+.Euroliga a.fmitem:after,
+#m99973728 a.fmitem:after,
+#m99973727 a.fmitem:after,
+#cate_9973065 .mitem a.fmitem:after,
+#m5510 a.fmitem:after,
+#m5511 a.fmitem:after,
+#m5512:after,
+#m5513:after,
+#m5514:after,
+#m5515:after,
+#m33:after,
+.Liga.ABA:after ,
+.CEV.Cup:after,
+ul.Europe a.fmitem:after{
+    background-image: url("../imgs/flags/european-union.svg")!important;
+}
+
+.The.Masters:after,
+#cate_164 .mitem:after,
+#cate_9973047 .mitem:after,
+.Inghilterra:after,
+.England:after,
+.Surbiton:after,
+.England:after,
+.Nottingham:after,
+.Wimbledon:after,
+.Londra:after,
+.London:after,
+.Eastbourne:after,
+.Manchester:after,
+.PDC.Player.Championship:after,
+.Premier.League.Top:after,
+.Mansfield:after,
+.Silverstone:after,
+.Arsenal:after,
+.Tottenham:after,
+.Tottenham:after,
+.Crystal.Palace:after,
+.Liverpool:after,
+.Bournemouth:after,
+.Peterborough:after,
+#m1339:after,
+#m8559:after,
+.The.Masters a.fmitem:after,
+#cate_164 .mitem a.fmitem:after,
+#cate_9973047 .mitem a.fmitem:after,
+.Inghilterra a.fmitem:after,
+.England a.fmitem:after,
+.Surbiton a.fmitem:after,
+.England a.fmitem:after,
+.Nottingham a.fmitem:after,
+.Wimbledon a.fmitem:after,
+.Londra a.fmitem:after,
+.London a.fmitem:after,
+.Eastbourne a.fmitem:after,
+.Manchester a.fmitem:after,
+.PDC.Player.Championship a.fmitem:after,
+.Premier.League.Top a.fmitem:after,
+.Mansfield a.fmitem:after,
+.Silverstone a.fmitem:after,
+.Arsenal a.fmitem:after,
+.Tottenham a.fmitem:after,
+.Tottenham a.fmitem:after,
+.Crystal.Palace a.fmitem:after,
+.Liverpool a.fmitem:after,
+.Bournemouth a.fmitem:after,
+.Peterborough a.fmitem:after,
+#m1339 a.fmitem:after,
+#m8559 a.fmitem:after,
+ul.England a.fmitem:after{
+    background-image: url("../imgs/flags/england.svg")!important;
+}
+
+.Gibilterra:after, .Gibraltar:after,
+ul.Gibraltar a.fmitem:after{
+    background-image: url("../imgs/flags/gibraltar.svg")!important;
+}
+
+.Versmold:after,
+.Saarlouis:after,
+.Bundesliga:after,
+.German:after,
+#cate_161 .mitem:after,
+.Germania:after,
+.Bad.Salzdetfurth:after,
+.Germany:after,
+.Marbug:after,
+.Eckental:after,
+.Nurnberg:after,
+.Heilbronn:after,
+.Stoccarda:after,
+.Amburgo:after,
+.Darmstadt:after,
+.Sachsenring:after,
+.Furth:after,
+.Uberlingen:after,
+.Braunschweig:after,
+.Braunschweigh:after,
+.Versmold a.fmitem:after,
+.Saarlouis a.fmitem:after,
+.Bundesliga a.fmitem:after,
+.German a.fmitem:after,
+#cate_161 .mitem a.fmitem:after,
+.Germania a.fmitem:after,
+.Bad.Salzdetfurth a.fmitem:after,
+.Germany a.fmitem:after,
+.Marbug a.fmitem:after,
+.Eckental a.fmitem:after,
+.Nurnberg a.fmitem:after,
+.Heilbronn a.fmitem:after,
+.Stoccarda a.fmitem:after,
+.Amburgo a.fmitem:after,
+.Darmstadt a.fmitem:after,
+.Sachsenring a.fmitem:after,
+.Furth a.fmitem:after,
+.Uberlingen a.fmitem:after,
+.Braunschweig a.fmitem:after,
+.Braunschweigh a.fmitem:after,
+ul.Germany a.fmitem:after{
+    background-image: url("../imgs/flags/germany.svg")!important;
+}
+
+.Gandia:after,
+#cate_163 .mitem:after,
+.Nules:after,
+.Spagna:after,
+.Spain:after,
+.Bakio:after,
+.Segovia:after,
+.Margarida:after,
+.La.Vuelta:after,
+.Castellon:after,
+.Pozoblanco:after,
+.del.Rey.Winner:after,
+.Madrid:after,
+.Valldoreix:after,
+.Aragon:after,
+.Leon:after,
+.Spain:after,
+.Getxo:after,
+.Siviglia:after,
+.Sevilla:after,
+.Valencia:after,
+.Barcelona:after,
+.Gandia a.fmitem:after,
+#cate_163 .mitem a.fmitem:after,
+.Nules a.fmitem:after,
+.Spagna a.fmitem:after,
+.Spain a.fmitem:after,
+.Bakio a.fmitem:after,
+.Segovia a.fmitem:after,
+.Margarida a.fmitem:after,
+.La.Vuelta a.fmitem:after,
+.Castellon a.fmitem:after,
+.Pozoblanco a.fmitem:after,
+.del.Rey.Winner a.fmitem:after,
+.Madrid a.fmitem:after,
+.Valldoreix a.fmitem:after,
+.Aragon a.fmitem:after,
+.Leon a.fmitem:after,
+.Spain a.fmitem:after,
+.Getxo a.fmitem:after,
+.Siviglia a.fmitem:after,
+.Sevilla a.fmitem:after,
+.Valencia a.fmitem:after,
+.Barcelona a.fmitem:after,
+ul.Spain a.fmitem:after{
+    background-image: url("../imgs/flags/spain.svg")!important;
+}
+
+.Uzbekistan:after,
+.Samarkand:after,
+.Samarkand a.fmitem:after,
+ul.Uzbekistan a.fmitem:after{
+    background-image: url("../imgs/flags/uzbekistn.svg")!important;
+}
+
+.Americas:after,
+ul.Americas a.fmitem:after{
+    background-image: url("../imgs/flags/americas.png")!important;
+}
+
+.Saint.Gervais:after,
+.Contrexeville:after,
+#cate_162 .mitem:after,
+.Roland.Garros:after,
+#cate_170 .mitem:after,
+.Montauban:after,
+.Perigueux:after,
+.Francia:after,
+.Toulon:after,
+.Havre:after,
+.Bagneres:after,
+.Tolone:after,
+.Joue.Les.Tours:after,
+.Remy:after,
+.France:after,
+.Bordeaux:after,
+.Marseille:after,
+.Nice:after,
+.Saint.Gaudens:after,
+.Nantes:after,
+.Parigi:after,
+.Orleans:after,
+.Clermont:after,
+#m5200:after,
+.Pro.D2:after,
+.Saint.Gervais a.fmitem:after,
+.Contrexeville a.fmitem:after,
+#cate_162 .mitem a.fmitem:after,
+.Roland.Garros a.fmitem:after,
+#cate_170 .mitem a.fmitem:after,
+.Montauban a.fmitem:after,
+.Perigueux a.fmitem:after,
+.Francia a.fmitem:after,
+.Toulon a.fmitem:after,
+.Havre a.fmitem:after,
+.Bagneres a.fmitem:after,
+.Tolone a.fmitem:after,
+.Joue.Les.Tours a.fmitem:after,
+.Remy a.fmitem:after,
+.France a.fmitem:after,
+.Bordeaux a.fmitem:after,
+.Marseille a.fmitem:after,
+.Nice a.fmitem:after,
+.Saint.Gaudens a.fmitem:after,
+.Nantes a.fmitem:after,
+.Parigi a.fmitem:after,
+.Orleans a.fmitem:after,
+.Clermont a.fmitem:after,
+#m5200 a.fmitem:after,
+.Pro.D2 a.fmitem:after,
+ul.France a.fmitem:after{
+    background-image: url("../imgs/flags/france.svg")!important;
+}
+
+.Cantanhede:after,
+.Oporto:after,
+.Lisbona:after,
+.Coimbra:after,
+.Portogallo:after,
+.Portugal:after,
+.Cantanhede a.fmitem:after,
+.Oporto a.fmitem:after,
+.Lisbona a.fmitem:after,
+.Coimbra a.fmitem:after,
+.Portogallo a.fmitem:after,
+.Portugal a.fmitem:after,
+ul.Portugal a.fmitem:after{
+    background-image: url("../imgs/flags/portugal.svg")!important;
+}
+
+.Dubai:after,
+.Abu.Dhabi:after,
+.Dubai a.fmitem:after,
+.Abu.Dhabi a.fmitem:after,
+.Yas.Marina:after{
+    background-image: url("../imgs/flags/eau.png")!important;
+}
+
+.Amstelveen:after,
+.Breda:after,
+.Hertogenbosch:after,
+.Olanda:after,
+.Holland:after,
+.Zeeland:after,
+.aan.den.Rijn:after,
+.Amstelveen a.fmitem:after,
+.Breda a.fmitem:after,
+.Hertogenbosch a.fmitem:after,
+.Olanda a.fmitem:after,
+.Holland a.fmitem:after,
+.Zeeland a.fmitem:after,
+.aan.den.Rijn a.fmitem:after,
+ul.Holland a.fmitem:after{
+    background-image: url("../imgs/flags/netherlands.svg")!important;
+}
+
+.Hyderabad:after,
+.Bhopal:after,
+.Jassowal:after,
+.Chennai:after,
+.Navi.Mumbai:after,
+.New.Delhi:after,
+.India.Federation:after,
+.India:after,
+.Hyderabad a.fmitem:after,
+.Bhopal a.fmitem:after,
+.Jassowal a.fmitem:after,
+.Chennai a.fmitem:after,
+.Navi.Mumbai a.fmitem:after,
+.New.Delhi a.fmitem:after,
+.India.Federation a.fmitem:after,
+.India a.fmitem:after,
+ul.India a.fmitem:after{
+    background-image: url("../imgs/flags/india.svg")!important;
+}
+
+.Kramsach:after,
+.Telfs:after,
+.Seefeld:after,
+.Austria:after,
+.Strasbourg:after,
+.Vienna:after,
+.Kitzbuehel:after,
+.Kramsach a.fmitem:after,
+.Telfs a.fmitem:after,
+.Seefeld a.fmitem:after,
+.Austria a.fmitem:after,
+.Strasbourg a.fmitem:after,
+.Vienna a.fmitem:after,
+.Kitzbuehel a.fmitem:after,
+ul.Austria a.fmitem:after{
+    background-image: url("../imgs/flags/austria.svg")!important;
+}
+
+.Knokke:after,
+.Nieuwport:after,
+.Nieuwpoort:after,
+.Belgio:after,
+.De.Haan:after,
+.Belgium:after,
+.Spa-Francorchamps:after,
+.Felurus:after,
+.Knokke a.fmitem:after,
+.Nieuwport a.fmitem:after,
+.Nieuwpoort a.fmitem:after,
+.Belgio a.fmitem:after,
+.De.Haan a.fmitem:after,
+.Belgium a.fmitem:after,
+.Spa-Francorchamps a.fmitem:after,
+.Felurus a.fmitem:after,
+ul.Belgium a.fmitem:after{
+    background-image: url("../imgs/flags/belgium.svg")!important;
+}
+
+.Bol:after,
+.Croazia:after,
+.Umag:after,
+.Bol a.fmitem:after,
+.Croazia a.fmitem:after,
+.Umag a.fmitem:after,
+.Croatia:after,
+ul.Croatia a.fmitem:after{
+    background-image: url("../imgs/flags/croatia.svg")!important;
+}
+
+.Danimarca:after,
+.Danimarca a.fmitem:after,
+.Denmark:after,
+.Dnimarca:after,
+.Dnimarca a.fmitem:after,
+ul.Denmark a.fmitem:after{
+    background-image: url("../imgs/flags/denmark.svg")!important;
+}
+
+.Monaco:after,
+.Montecarlo:after,
+.Montecarlo a.fmitem:after,
+ul.Monaco a.fmitem:after{
+    background-image: url("../imgs/flags/monaco.svg")!important;
+}
+
+
+.Galles:after,
+.Galles a.fmitem:after,
+.Wales:after,
+ul.Wales a.fmitem:after{
+    background-image: url("../imgs/flags/wales.svg")!important;
+}
+
+.Uganda:after,
+ul.Uganda a.fmitem:after{
+    background-image: url("../imgs/flags/uganda.svg")!important;
+}
+
+.Dakar:after,
+.Senegal:after,
+ul.Senegal a.fmitem:after{
+    background-image: url("../imgs/flags/senegal.svg")!important;
+}
+
+.Lome:after,
+.Lome a.fmitem:after,
+.Togo:after,
+ul.Togo a.fmitem:after{
+    background-image: url("../imgs/flags/togo.svg")!important;
+}
+
+.Filippine:after,
+.Filippine a.fmitem:after,
+.Philippines:after,
+ul.Philippines a.fmitem:after{
+    background-image: url("../imgs/flags/philippines.svg")!important;
+}
+
+.AFF:after,
+ul.AFF a.fmitem:after{
+    background-image: url("../imgs/flags/aff.png")!important;
+}
+
+.Georgia:after,
+ul.Georgia a.fmitem:after{
+    background-image: url("../imgs/flags/georgia.svg")!important;
+}
+
+.Burundi:after,
+ul.Burundi a.fmitem:after{
+    background-image: url("../imgs/flags/burundi.svg")!important;
+}
+.Nicaragua:after,
+ul.Nicaragua a.fmitem:after{
+    background-image: url("../imgs/flags/nicaragua.svg")!important;
+}
+.Botswana:after,
+ul.Botswana a.fmitem:after{
+    background-image: url("../imgs/flags/botswana.svg")!important;
+}
+.Haiti:after,
+ul.Haiti a.fmitem:after{
+    background-image: url("../imgs/flags/haiti.svg")!important;
+}
+.Gambia:after,
+ul.Gambia a.fmitem:after{
+    background-image: url("../imgs/flags/gambia.svg")!important;
+}
+
+.Panama:after,
+ul.Panama a.fmitem:after{
+    background-image: url("../imgs/flags/panama.svg")!important;
+}
+
+.Santo.Domingo:after,
+.Santiago.Los.Caballeros:after,
+.La.Romana:after,
+.Dominicana:after,
+.Santo.Domingo a.fmitem:after,
+.Santiago.Los.Caballeros a.fmitem:after,
+.La.Romana a.fmitem:after,
+.Dominicana a.fmitem:after,
+ul.Dominican.Republic a.fmitem:after{
+    background-image: url("../imgs/flags/dominican-republic.svg")!important;
+}
+
+.Grecia:after,
+.Grecia.Football:after,
+.Greece:after,
+.Grecia a.fmitem:after,
+.Grecia.Football a.fmitem:after,
+.Greece a.fmitem:after,
+ul.Greece a.fmitem:after{
+    background-image: url("../imgs/flags/greece.svg")!important;
+}
+
+.eventsname.Irlanda.Del.Nord a.fmitem:after,
+.eventsname.Irlanda.Del.Nord:after{
+    background-image: url("../imgs/flags/irlandadelnord.png")!important;
+}
+
+.Norvegia:after,
+.Norvegia a.fmitem:after,
+.Norway:after,
+ul.Norway a.fmitem:after{
+    background-image: url("../imgs/flags/norway.svg")!important;
+}
+
+.Zielona:after,
+.Polonia:after,
+.Poland:after,
+.Katowice:after,
+.Polish:after,
+.Poznan:after,
+.Bytom:after,
+.Ekstraklasa:after,
+.Zielona a.fmitem:after,
+.Polonia a.fmitem:after,
+.Poland a.fmitem:after,
+.Katowice a.fmitem:after,
+.Polish a.fmitem:after,
+.Poznan a.fmitem:after,
+.Bytom a.fmitem:after,
+.Ekstraklasa a.fmitem:after,
+ul.Poland a.fmitem:after{
+    background-image: url("../imgs/flags/republic-of-poland.svg")!important;
+}
+
+.Pardubice:after,
+.Prostejov:after,
+.Most:after,
+.Praga:after,
+.Usti.Nad.Orlici:after,
+.Prague:after,
+.Czech:after,
+.Ceca:after,
+#m3865:after,
+.Olomouc:after,
+.Pardubice a.fmitem:after,
+.Prostejov a.fmitem:after,
+.Most a.fmitem:after,
+.Praga a.fmitem:after,
+.Usti.Nad.Orlici a.fmitem:after,
+.Prague a.fmitem:after,
+.Czech a.fmitem:after,
+.Ceca a.fmitem:after,
+#m3865:after,
+.Olomouc:after,
+ul.Czech a.fmitem:after{
+    background-image: url("../imgs/flags/czech-republic.svg")!important;
+}
+
+.Cuerta.De.Arges:after,
+.Bucarest:after,
+.Bucharest:after,
+.Bacau:after,
+.Galati:after,
+.Romania:after,
+.Brasov:after,
+.Sibiu:after,
+.Cuerta.De.Arges a.fmitem:after,
+.Bucarest a.fmitem:after,
+.Bucharest a.fmitem:after,
+.Bacau a.fmitem:after,
+.Galati a.fmitem:after,
+.Romania a.fmitem:after,
+.Brasov a.fmitem:after,
+.Sibiu a.fmitem:after,
+ul.Romania a.fmitem:after{
+    background-image: url("../imgs/flags/romania.svg")!important;
+}
+
+.Scozia:after,
+.Scozia a.fmitem:after,
+.Scotland:after,
+ul.Scotland a.fmitem:after{
+    background-image: url("../imgs/flags/scotland.svg")!important;
+}
+
+.Armenia:after,
+ul.Armenia a.fmitem:after{
+    background-image: url("../imgs/flags/armenia.svg")!important;
+}
+
+
+.Slovacchia:after,
+.Slovakia:after,
+.Slovacchia a.fmitem:after,
+.Slovakia a.fmitem:after,
+ul.Slovakia a.fmitem:after{
+    background-image: url("../imgs/flags/slovakia.svg")!important;
+}
+
+.Maribor:after,
+.Slovenia:after,
+.Slovenian:after,
+.Maribor a.fmitem:after,
+.Slovenia a.fmitem:after,
+.Slovenian a.fmitem:after,
+ul.Slovenia a.fmitem:after{
+    background-image: url("../imgs/flags/slovenia.svg")!important;
+}
+
+.Switzerland:after,
+.Svizzera:after,
+.Spengler:after,
+.Geneva:after,
+.Ginevra:after,
+.Gstaad:after,
+.Montreux:after,
+.Sion:after,
+.Caslano:after,
+.Switzerland a.fmitem:after,
+.Svizzera a.fmitem:after,
+.Spengler a.fmitem:after,
+.Geneva a.fmitem:after,
+.Ginevra a.fmitem:after,
+.Gstaad a.fmitem:after,
+.Montreux a.fmitem:after,
+.Sion a.fmitem:after,
+.Caslano a.fmitem:after,
+ul.Switzerland a.fmitem:after{
+    background-image: url("../imgs/flags/switzerland.svg")!important;
+}
+
+.Itajai:after,
+.Foz.Do.Iguacu:after,
+.Sao.Paulo:after,
+.Brasile:after,
+.Brazil:after,
+.Santa.Maria:after,
+.Sao.Jose:after,
+.Porto.Alegre:after,
+.Itajai a.fmitem:after,
+.Foz.Do.Iguacu a.fmitem:after,
+.Sao.Paulo a.fmitem:after,
+.Brasile a.fmitem:after,
+.Brazil a.fmitem:after,
+.Santa.Maria a.fmitem:after,
+.Sao.Jose a.fmitem:after,
+.Porto.Alegre a.fmitem:after,
+ul.Brazil a.fmitem:after{
+    background-image: url("../imgs/flags/brazil.svg")!important;
+}
+
+.Mendoza:after,
+.Argentina:after,
+.San.Juan:after,
+.Mendoza a.fmitem:after,
+.Argentina a.fmitem:after,
+.San.Juan a.fmitem:after,
+ul.Argentina a.fmitem:after{
+    background-image: url("../imgs/flags/argentina.svg")!important;
+}
+
+.Villa.Alemana:after,
+.Santiago:after,
+.Osorno:after,
+.Temuco:after,
+.Concepcion:after,
+.Cile:after,
+ul.Chile a.fmitem:after,
+.Villa.Alemana a.fmitem:after,
+.Santiago a.fmitem:after,
+.Osorno a.fmitem:after,
+.Temuco a.fmitem:after,
+.Concepcion a.fmitem:after,
+.Cile a.fmitem:after,
+ul.Chile a.fmitem:after,
+.Chile:after{
+    background-image: url("../imgs/flags/chile.svg")!important;
+}
+
+.Coppa.America:after,
+.CONMEBOL:after,
+.Copa.America:after,
+.Sudamericana:after,
+.Sudamericane:after,
+.Recopa:after,
+.Libertadores:after,
+.Coppa.America a.fmitem:after,
+.CONMEBOL a.fmitem:after,
+.Copa.America a.fmitem:after,
+.Sudamericana a.fmitem:after,
+.Sudamericane a.fmitem:after,
+.Recopa a.fmitem:after,
+.Libertadores a.fmitem:after,
+ul.South.America a.fmitem:after{
+    background-image: url("../imgs/flags/sudamericane.png")!important;
+}
+
+.Gimcheon:after,
+.Sud.Corea:after,
+.Seoul:after,
+.South.Korea:after,
+.Korea:after,
+.Sud.Korea:after,
+.Gimcheon a.fmitem:after,
+.Sud.Corea a.fmitem:after,
+.Seoul a.fmitem:after,
+.South.Korea a.fmitem:after,
+.Korea a.fmitem:after,
+.Sud.Korea a.fmitem:after,
+ul.Sud.Korea a.fmitem:after{
+    background-image: url("../imgs/flags/south-korea.svg")!important;
+}
+
+.Manzanillo:after,
+.Merida:after,
+.Mazatlan:after,
+.Messico:after,
+.Mexico:after,
+.Acapulco:after,
+.Manzanillo a.fmitem:after,
+.Merida a.fmitem:after,
+.Mazatlan a.fmitem:after,
+.Messico a.fmitem:after,
+.Mexico a.fmitem:after,
+.Acapulco a.fmitem:after,
+ul.Mexico a.fmitem:after{
+    background-image: url("../imgs/flags/mexico.svg")!important;
+}
+
+.Kazan:after,
+.Channel.One.Cup:after,
+.Russia.Football.National:after,
+.Russia:after,
+.Granatkin:after,
+.Mosca:after,
+.Russian:after,
+.Kazan a.fmitem:after,
+.Channel.One.Cup a.fmitem:after,
+.Russia.Football.National a.fmitem:after,
+.Russia a.fmitem:after,
+.Granatkin a.fmitem:after,
+.Mosca a.fmitem:after,
+.Russian a.fmitem:after,
+ul.Russia a.fmitem:after{
+    background-image: url("../imgs/flags/russia.svg")!important;
+}
+
+.Africa:after,
+.Sud.Africa:after,
+.Sudafrica:after,
+.Africa a.fmitem:after,
+.Sud.Africa a.fmitem:after,
+.Sudafrica a.fmitem:after,
+ul.Sud.Africa a.fmitem:after{
+    background-image: url("../imgs/flags/south-africa.svg")!important;
+}
+
+.Bursa:after,
+.Eskisehir:after,
+.Balikesir:after,
+.Mersin:after,
+.Turchia:after,
+.Ankara:after,
+.Sakarya:after,
+.Antalya:after,
+.Istanbul:after,
+.Turkey:after,
+.Turkish:after,
+.Turchis:after,
+.Bursa a.fmitem:after,
+.Eskisehir a.fmitem:after,
+.Balikesir a.fmitem:after,
+.Mersin a.fmitem:after,
+.Turchia a.fmitem:after,
+.Ankara a.fmitem:after,
+.Sakarya a.fmitem:after,
+.Antalya a.fmitem:after,
+.Istanbul a.fmitem:after,
+.Turkey a.fmitem:after,
+.Turkish a.fmitem:after,
+.Turchis a.fmitem:after,
+ul.Turkey a.fmitem:after{
+    background-image: url("../imgs/flags/turkey.svg")!important;
+}
+
+.Cherkassy:after,
+.Ucraina:after,
+.Ukraine:after,
+.Cherkassy a.fmitem:after,
+.Ucraina a.fmitem:after,
+.Ukraine a.fmitem:after,
+ul.Ukraine a.fmitem:after{
+    background-image: url("../imgs/flags/ukraine.svg")!important;
+}
+
+.Travelers.Championship:after,
+.Pelham:after,
+.Newport:after,
+.Little.Rock:after,
+.Sarasota:after,
+.NHL:after,
+.Winnetka:after,
+.WNBA:after,
+.Pensacola:after,
+.The.Memorial:after,
+.USA:after,
+.Football:after,
+.NASL:after,
+.Superbowl:after,
+.Austin:after,
+.Charlottesville:after,
+.NCAA:after,
+.Wells.Fargo:after,
+.Binghamton:after,
+.MLB:after,
+.Champaign:after,
+.Atlanta:after,
+.Lexington:after,
+.Niceville:after,
+.Washington:after,
+.Stanford:after,
+.Houston:after,
+.Charleston:after,
+.Winston.Salem:after,
+.Us.Open:after,
+.NBA:after,
+.US.Open:after,
+.New.Haven:after,
+.Napa:after,
+.Las.Vegas:after,
+.Amelia.Island:after,
+.Ryder.Cup:after,
+.CareerBuilder.Challenge:after,
+.PGA.Championship:after,
+.US.Masters:after,
+.NFL:after,
+.Indian:after,
+.USA:after,
+.Travelers.Championship a.fmitem:after,
+.Pelham a.fmitem:after,
+.Newport a.fmitem:after,
+.Little.Rock a.fmitem:after,
+.Sarasota a.fmitem:after,
+.NHL a.fmitem:after,
+.Winnetka a.fmitem:after,
+.WNBA a.fmitem:after,
+.Pensacola a.fmitem:after,
+.The.Memorial a.fmitem:after,
+.USA a.fmitem:after,
+.Football a.fmitem:after,
+.NASL a.fmitem:after,
+.Superbowl a.fmitem:after,
+.Austin a.fmitem:after,
+.Charlottesville a.fmitem:after,
+.NCAA a.fmitem:after,
+.Wells.Fargo a.fmitem:after,
+.Binghamton a.fmitem:after,
+.MLB a.fmitem:after,
+.Champaign a.fmitem:after,
+.Atlanta a.fmitem:after,
+.Lexington a.fmitem:after,
+.Niceville a.fmitem:after,
+.Washington a.fmitem:after,
+.Stanford a.fmitem:after,
+.Houston a.fmitem:after,
+.Charleston a.fmitem:after,
+.Winston.Salem a.fmitem:after,
+.Us.Open a.fmitem:after,
+.NBA a.fmitem:after,
+.US.Open a.fmitem:after,
+.New.Haven a.fmitem:after,
+.Napa a.fmitem:after,
+.Las.Vegas a.fmitem:after,
+.Amelia.Island a.fmitem:after,
+.Ryder.Cup a.fmitem:after,
+.CareerBuilder.Challenge a.fmitem:after,
+.PGA.Championship a.fmitem:after,
+.US.Masters a.fmitem:after,
+.NFL a.fmitem:after,
+.Indian a.fmitem:after,
+.USA a.fmitem:after,
+ul.Usa a.fmitem:after
+{
+    background-image: url("../imgs/flags/united-states-of-america.svg")!important;
+}
+
+.Kashiwa:after,
+.Toyota:after,
+.Japan:after,
+.Yokohama:after,
+.Giappone:after,
+.Kashiwa a.fmitem:after,
+.Toyota a.fmitem:after,
+.Japan a.fmitem:after,
+.Yokohama a.fmitem:after,
+.Giappone a.fmitem:after,
+ul.Japan a.fmitem:after{
+    background-image: url("../imgs/flags/japan.svg")!important;
+}
+
+.Montenegro:after,
+.Podgorica:after,
+.Podgorica a.fmitem:after,
+ul.Montenegro a.fmitem:after{
+    background-image: url("../imgs/flags/montenegro.svg")!important;
+}
+
+.Meshref:after,
+.Meshref a.fmitem:after,
+.Kuwait:after,
+ul.Kuwait a.fmitem:after{
+    background-image: url("../imgs/flags/kuwait.svg")!important;
+}
+.Australian:after,
+.Australia:after,
+.Hopman:after,
+.Australia:after,
+.State.of.Origin:after,
+.Brisbane:after,
+.Australian:after,
+.Traralgon:after,
+.Phillip.Island:after,
+.Australian a.fmitem:after,
+.Australia a.fmitem:after,
+.Hopman a.fmitem:after,
+.Australia a.fmitem:after,
+.State.of.Origin a.fmitem:after,
+.Brisbane a.fmitem:after,
+.Australian a.fmitem:after,
+.Traralgon a.fmitem:after,
+.Phillip.Island a.fmitem:after,
+ul.Australia a.fmitem:after{
+    background-image: url("../imgs/flags/australia.svg")!important;
+}
+
+.Noumea a.fmitem:after,
+.Noumea:after{
+    background-image: url("../imgs/flags/nuovacaledonia.png")!important;
+}
+.Congo a.fmitem:after,
+.Congo:after{
+    background-image: url("../imgs/flags/republic-of-the-congo.svg")!important;
+}
+
+.Brcko:after,
+.Doboj:after,
+.Bosnia:after,
+.Herzegovina:after,
+.Bosnia:after,
+.Brcko a.fmitem:after,
+.Herzegovina a.fmitem:after,
+.Doboj a.fmitem:after,
+.Bosnia a.fmitem:after,
+.Bosnia a.fmitem:after,
+ul.Bosnia a.fmitem:after{
+    background-image: url("../imgs/flags/bosnia-and-herzegovina.svg")!important;
+}
+
+.Honduras:after,
+ul.Honduras a.fmitem:after{
+    background-image: url("../imgs/flags/honduras.svg")!important;
+}
+
+.Honduras:after,
+ul.Honduras a.fmitem:after{
+    background-image: url("../imgs/flags/honduras.svg")!important;
+}
+
+
+.Bulgaria:after,
+.Sofia:after,
+.Bulgaria a.fmitem:after,
+.Sofia a.fmitem:after,
+ul.Bulgaria a.fmitem:after{
+    background-image: url("../imgs/flags/bulgaria.svg")!important;
+}
+
+.Cali:after,
+.Popayan:after,
+.Colombia:after,
+.Medellin:after,
+.Bogota:after,
+.Pereira:after,
+.Cali a.fmitem:after,
+.Popayan a.fmitem:after,
+.Colombia a.fmitem:after,
+.Medellin a.fmitem:after,
+.Bogota a.fmitem:after,
+.Pereira a.fmitem:after,
+ul.Colombia a.fmitem:after{
+    background-image: url("../imgs/flags/colombia.svg")!important;
+}
+
+.Cosafa:after,
+.African:after,
+.Cosafa a.fmitem:after,
+.African a.fmitem:after,
+ul.Africa a.fmitem:after{
+    background-image: url("../imgs/flags/africa.png")!important;
+}
+.AFC:after,
+.Oceania:after,
+.AFC.Asian:after,
+.Gulf.Clubs:after,
+.Gulf.Cup:after,
+.Asian:after,
+.Asia:after,
+.AFC a.fmitem:after,
+.AFC.Asian a.fmitem:after,
+.Gulf.Clubs a.fmitem:after,
+.Gulf.Cup a.fmitem:after,
+.Asian a.fmitem:after,
+.Oceania a.fmitem:after,
+.Asia a.fmitem:after,
+.ASEAN.Basketball.League:after{
+    background-image: url("../imgs/flags/oceania.png")!important;
+}
+
+.Salvador:after,
+ul.Salvador a.fmitem:after{
+    background-image: url("../imgs/flags/salvador.svg")!important;
+}
+
+.Ghana:after,
+ul.Ghana a.fmitem:after{
+    background-image: url("../imgs/flags/ghana.svg")!important;
+}
+
+.Rico:after,
+ul.Rico a.fmitem:after{
+    background-image: url("../imgs/flags/puerto-rico.svg")!important;
+}
+
+.Belgrado:after,
+.Serbia:after,
+.Belgrado a.fmitem:after,
+.Serbia a.fmitem:after,
+ul.Serbia a.fmitem:after{
+    background-image: url("../imgs/flags/serbia.svg")!important;
+}
+
+.Superbike:after,
+.Piloti:after,
+.Moto:after,
+.Mondiale.Costruttori:after,
+.Formula:after,
+.Superbike a.fmitem:after,
+.Piloti a.fmitem:after,
+.Moto a.fmitem:after,
+.Mondiale.Costruttori a.fmitem:after,
+.Formula:after,
+ul.Formula a.fmitem:after{
+    background-image: url("../imgs/flags/gp.png")!important;
+}
+
+.Akko:after,
+.Israle:after,
+.Israele:after,
+.Israel:after,
+.Akko a.fmitem:after,
+.Israle a.fmitem:after,
+.Israele a.fmitem:after,
+.Israel a.fmitem:after,
+ul.Israel a.fmitem:after{
+    background-image: url("../imgs/flags/israel.svg")!important;
+}
+
+.Ungheria:after,
+.Hungary:after,
+.Hungarian:after,
+.Ungheria a.fmitem:after,
+.Hungary a.fmitem:after,
+.Hungarian a.fmitem:after,
+ul.Hungary a.fmitem:after
+{
+    background-image: url("../imgs/flags/hungary.svg")!important;
+}
+
+.La.Croisette:after,
+.Mauritius:after,
+.La.Croisette a.fmitem:after,
+.Mauritius a.fmitem:after,
+ul.Mauritius a.fmitem:after{
+    background-image: url("../imgs/flags/mauritius.svg")!important;
+}
+
+.Harare:after,
+.Zimbabwe:after,
+.Harare a.fmitem:after,
+.Zimbabwe a.fmitem:after,
+ul.Zimbabwe a.fmitem:after{
+    background-image: url("../imgs/flags/zimbabwe.svg")!important;
+}
+.Sweden:after,
+.Svezia:after,
+.Sweden:after,
+.Svezia:after,
+.Bastad:after,
+.Stoccolma:after,
+.Falun:after,
+.Sweden a.fmitem:after,
+.Svezia a.fmitem:after,
+.Sweden a.fmitem:after,
+.Svezia a.fmitem:after,
+.Bastad a.fmitem:after,
+.Stoccolma a.fmitem:after,
+.Falun a.fmitem:after,
+ul.Sweden a.fmitem:after{
+    background-image: url("../imgs/flags/sweden.svg")!important;
+}
+
+.Ireland:after,
+.Irish:after,
+.Irlanda:after,
+.Ireland a.fmitem:after,
+.Irish a.fmitem:after,
+.Irlanda a.fmitem:after,
+ul.Ireland a.fmitem:after{
+    background-image: url("../imgs/flags/ireland.svg")!important;
+}
+
+.Hong.Kong:after,
+.Shenzhen:after,
+.Wuhan:after,
+.Cina:after,
+.China:after,
+.Chinese:after,
+.Ningbo:after,
+.Shanghai:after,
+.Suzhou:after,
+.Hong.Kong a.fmitem:after,
+.Shenzhen a.fmitem:after,
+.Wuhan a.fmitem:after,
+.Cina a.fmitem:after,
+.Chinese a.fmitem:after,
+.China a.fmitem:after,
+.Ningbo a.fmitem:after,
+.Shanghai a.fmitem:after,
+.Suzhou a.fmitem:after,
+ul.China a.fmitem:after{
+    background-image: url("../imgs/flags/china.svg")!important;
+}
+.Finland:after,
+.Finlandia:after,
+.Finland:after,
+.Finlandia:after,
+.Helsinki:after,
+.Finnlandia:after,
+.Finland a.fmitem:after,
+.Finlandia a.fmitem:after,
+.Finland a.fmitem:after,
+.Finlandia a.fmitem:after,
+.Helsinki a.fmitem:after,
+.Finnlandia a.fmitem:after,
+ul.Finland a.fmitem:after{
+    background-image: url("../imgs/flags/finland.svg")!important;
+}
+
+.Islanda:after, .Iceland:after,
+ul.Iceland a.fmitem:after, ul.Islanda a.fmitem:after{
+    background-image: url("../imgs/flags/iceland.svg")!important;
+}
+
+.Estonia:after, .Estonia:after,
+ul.Estonia a.fmitem:after{
+    background-image: url("../imgs/flags/estonia.svg")!important;
+}
+
+.CFL:after,
+#m3814:after,
+.Zawada:after,
+.Montreal:after,
+.C.F.L:after,
+.Canada:after,
+.Granby:after,
+.Toronto:after,
+.Vancouver:after,
+ul.Canada a.fmitem:after{
+    background-image: url("../imgs/flags/canada.svg")!important;
+}
+
+.Singapore:after,
+ul.Singapore a.fmitem:after{
+    background-image: url("../imgs/flags/singapore.png")!important;
+}
+
+.Taiwan:after,
+.Kaohsiung:after,
+.Kaohsiung a.fmitem::after,
+ul.Taiwan a.fmitem:after{
+    background-image: url("../imgs/flags/taiwan.svg")!important;
+}
+
+.Costa.Rica:after,
+ul.Costa.Rica a.fmitem:after{
+    background-image: url("../imgs/flags/costa-rica.svg")!important;
+}
+
+.AHL:after{
+    background-image: url("../imgs/flags/canadausa.png")!important;
+}
+
+.Rwanda:after,
+.Ruanda:after,
+ul.Rwanda a.fmitem:after{
+    background-image: url("../imgs/flags/rwanda.svg")!important;
+}
+
+.Sharm.El.Sheik:after,
+.Egitto:after,
+.Sharm.El.Sheikh:after,
+.Egypt:after,
+ul.Egypt a.fmitem:after{
+    background-image: url("../imgs/flags/egypt.svg")!important;
+}
+
+.Lima:after,
+.Lima a.fmitem:after,
+.Peru:after,
+ul.Peru a.fmitem:after{
+    background-image: url("../imgs/flags/peru.svg")!important;
+}
+
+.Belarus a.fmitem:after,
+.Belarus:after,
+.Bielorussia:after,
+ul.Bielorussia a.fmitem:after{
+    background-image: url("../imgs/flags/bielorussia.svg")!important;
+}
+
+.Latvia:after,
+.Lettonia:after,
+.Lettonia a.fmitem::after,
+ul.Latvia a.fmitem:after{
+    background-image: url("../imgs/flags/latvia.svg")!important;
+}
+
+.Vietnam:after,
+ul.Vietnam a.fmitem:after{
+    background-image: url("../imgs/flags/vietnam.svg")!important;
+}
+
+.Lithuania:after,
+.Lithuania a.fmitem::after,
+.Lituania:after,
+ul.Lithuania a.fmitem:after{
+    background-image: url("../imgs/flags/lithuania.svg")!important;
+}
+
+.Azerbaigian:after,
+.Azerbaigian a.fmitem::after,
+.Azerbaijan:after,
+.Baku:after,
+.Baku a.fmitem::after,
+ul.Azerbaijan a.fmitem:after{
+    background-image: url("../imgs/flags/azerbaijan.svg")!important;
+}
+
+.UK:after,
+.UK a.fmitem::after,
+.Uk.Championship:after,
+.Uk.Championship a.fmitem::after,
+.Gran.Bretagna:after,
+.Gran.Bretagna a.fmitem::after,
+.United.Kingdom a.fmitem::after,
+.United.Kingdom:after,
+ul.Gran.Bretagna a.fmitem:after{
+    background-image: url("../imgs/flags/granbretagna.png")!important;
+}
+
+.Faroe:after,
+.Faroer:after,
+ul.Faroe a.fmitem:after{
+    background-image: url("../imgs/flags/faroe-islands.svg")!important;
+}
+
+.Ecuador:after,
+.Guayaquil:after,
+.Guayaquil a.fmitem::after,
+ul.Ecuador a.fmitem:after{
+    background-image: url("../imgs/flags/ecuador.svg")!important;
+}
+
+.Guatemala:after,
+ul.Guatemala a.fmitem:after{
+    background-image: url("../imgs/flags/guatemala.svg")!important;
+}
+
+.Doha:after,
+.Doha a.fmitem::after,
+.Qatar:after,
+ul.Qatar a.fmitem:after{
+    background-image: url("../imgs/flags/qatar.svg")!important;
+}
+
+.CONCACAF:after,
+.caribbean:after,
+#cat_103 a:after,
+ul.Nord.America a.fmitem:after{
+    background-image: url("../imgs/flags/nordamerica.png")!important;
+}
+
+.Yemen:after,
+ul.Yemen a.fmitem:after{
+    background-image: url("../imgs/flags/yemen.svg")!important;
+}
+
+.CAF:after,
+ul.CAF a.fmitem:after{
+    background-image: url("../imgs/flags/caf.png")!important;
+}
+
+.Algiers:after,
+.Algiers a.fmitem::after,
+.Algeria:after,
+ul.Algeria a.fmitem:after{
+    background-image: url("../imgs/flags/algeria.svg")!important;
+}
+
+.Marocco:after,
+.Casablanca:after,
+.Kenitra:after,
+.Morocco:after,
+.Marocco a.fmitem::after,
+.Casablanca a.fmitem::after,
+.Kenitra a.fmitem::after,
+.Morocco a.fmitem::after,
+ul.Morocco a.fmitem:after{
+    background-image: url("../imgs/flags/morocco.svg")!important;
+}
+
+.Malesia:after,
+.Malaysia:after,
+.Kuala:after,
+.Lumpur:after,
+.Malesia a.fmitem::after,
+.Malaysia a.fmitem::after,
+.Kuala a.fmitem::after,
+.Lumpur a.fmitem::after,
+ul.Malaysia a.fmitem:after{
+    background-image: url("../imgs/flags/malaysia.svg")!important;
+}
+
+.Saudi.Arabia:after,
+.Arabia:after,
+.Arabia.Saudita:after,
+.Saudi.Arabia a.fmitem::after,
+.Arabia a.fmitem::after,
+.Arabia.Saudita a.fmitem::after,
+ul.Arabia a.fmitem:after{
+    background-image: url("../imgs/flags/arabiasaudita.svg")!important;
+}
+.New.Zelanda:after,
+.New.Zealand:after,
+.Auckland:after,
+.Auckland:after,
+.Nuova.Zelanda:after,
+.ITM.Coppa:after,
+.New.Zelanda a.fmitem::after,
+.New.Zealand a.fmitem::after,
+.Auckland a.fmitem::after,
+.Auckland a.fmitem::after,
+.Nuova.Zelanda a.fmitem::after,
+.ITM.Coppa a.fmitem::after,
+ul.New.Zealand a.fmitem:after{
+    background-image: url("../imgs/flags/new-zealand.svg")!important;
+}
+
+
+.Lussemburgo:after,
+.Lussemburgo a.fmitem:after,
+.Luxembourg:after,
+.Luxembourg a.fmitem:after,
+ul.Luxemburg a.fmitem:after{
+    background-image: url("../imgs/flags/luxembourg.svg")!important;
+}
+
+.Kazakhstan:after,
+ul.Kazakhstan a.fmitem:after{
+    background-image: url("../imgs/flags/kazakhstan.svg")!important;
+}
+
+.Sousse a.fmitem:after,
+.Sousse:after,
+.Tunisia a.fmitem:after,
+.Tunisia:after,
+ul.Tunisia a.fmitem:after{
+    background-image: url("../imgs/flags/tunisia.svg")!important;
+}
+
+.Indonesia:after,
+ul.Indonesia a.fmitem:after{
+    background-image: url("../imgs/flags/indonesia.svg")!important;
+}
+
+.Iran:after,
+ul.Iran a.fmitem:after{
+    background-image: url("../imgs/flags/iran.svg")!important;
+}
+
+.Andorra:after,
+.Andora a.fmitem:after,
+ul.Andorra a.fmitem:after{
+    background-image: url("../imgs/flags/andorra.svg")!important;
+}
+.Liechtenstein:after,
+.Liechtenstein a.fmitem:after,
+ul.Liechtenstein a.fmitem:after{
+    background-image: url("../imgs/flags/liechtenstein.svg")!important;
+}
+.Kosovo:after,
+.Kosovo a.fmitem:after,
+ul.Kosovo a.fmitem:after{
+    background-image: url("../imgs/flags/kosovo.svg")!important;
+}
+
+.Kenya:after,
+.Kenya a.fmitem:after,
+ul.Kenya a.fmitem:after{
+    background-image: url("../imgs/flags/kenya.svg")!important;
+}
+.Nigeria:after,
+.Nigeria a.fmitem:after,
+ul.Nigeria a.fmitem:after{
+    background-image: url("../imgs/flags/nigeria.svg")!important;
+}
+.Albania:after,
+.Albania a.fmitem:after,
+ul.Albania a.fmitem:after{
+    background-image: url("../imgs/flags/albania.svg")!important;
+}
+
+.Zambia:after,
+.Zambia a.fmitem:after,
+ul.Zambia a.fmitem:after{
+    background-image: url("../imgs/flags/zambia.svg")!important;
+}
+
+.Tanzania:after,
+.Tanzania a.fmitem:after,
+ul.Tanzania a.fmitem:after{
+    background-image: url("../imgs/flags/tanzania.svg")!important;
+}
+
+.Palestine:after,
+.Palestine a.fmitem:after,
+ul.Palestine a.fmitem:after{
+    background-image: url("../imgs/flags/palestine.svg")!important;
+}
+
+.Myanmar:after,
+.Myanmar a.fmitem:after,
+ul.Myanmar a.fmitem:after{
+    background-image: url("../imgs/flags/myanmar.svg")!important;
+}
+
+.Angola:after,
+.Angola a.fmitem:after,
+ul.Angola a.fmitem:after{
+    background-image: url("../imgs/flags/angola.svg")!important;
+}
+
+.Cambodia:after,
+.Cambodia a.fmitem:after,
+ul.Cambodia a.fmitem:after{
+    background-image: url("../imgs/flags/cambodia.svg")!important;
+}
+
+.Concacaf:after{
+    background-image: url("../imgs/flags/concacaf.png")!important;
+}
+
+.Thailand:after,
+.Bangkok:after,
+.Thailandia:after,
+ul.Thailandia a.fmitem:after{
+    background-image: url("../imgs/flags/thailand.svg")!important;
+}
+
+.Asuncion:after,
+.Paraguay:after,
+ul.Paraguay a.fmitem:after{
+    background-image: url("../imgs/flags/paraguay.svg")!important;
+}
+
+.Moldova:after,
+ul.Moldova a.fmitem:after{
+    background-image: url("../imgs/flags/moldova.svg")!important;
+}
+
+.Oman:after,
+ul.Oman a.fmitem:after{
+    background-image: url("../imgs/flags/oman.svg")!important;
+}
+
+.Cipro:after,
+.Cipro  a.fmitem::after,
+.Cyprus:after,
+.Cyprus a.fmitem::after,
+ul.Cipro a.fmitem:after{
+    background-image: url("../imgs/flags/cipro.svg")!important;
+}
+
+.Macedonia:after,
+ul.Macedonia a.fmitem:after{
+    background-image: url("../imgs/flags/republic-of-macedonia.svg")!important;
+}
+
+.Malta:after,
+ul.Malta a.fmitem:after{
+    background-image: url("../imgs/flags/malta.svg")!important;
+}
+
+.Sakhir:after,
+.Bahrain:after,
+ul.Bahrain a.fmitem:after{
+    background-image: url("../imgs/flags/bahrain.svg")!important;
+}
+
+.Pakistan:after,
+ul.Pakistan a.fmitem:after{
+    background-image: url("../imgs/flags/pakistan.svg")!important;
+}
+
+.Bolivia:after,
+ul.Bolivia a.fmitem:after{
+    background-image: url("../imgs/flags/bolivia.svg")!important;
+}
+
+.Venezuela:after,
+ul.Venezuela a.fmitem:after{
+    background-image: url("../imgs/flags/venezuela.svg")!important;
+}
+
+.Jordania:after,
+.Jordan:after,
+ul.Jordan a.fmitem:after{
+    background-image: url("../imgs/flags/jordan.svg")!important;
+}
+
+.UAE:after,
+.Uae:after,
+ul.Uae a.fmitem:after{
+    background-image: url("../imgs/flags/uae.png")!important;
+}
+
+.FIFA.Pallone:after,
+ul.FIFA a.fmitem:after{
+    background-image: url("../imgs/flags/playeraw.png")!important;
+}
+
+.Jamaica:after,
+ul.Jamaica a.fmitem:after{
+    background-image: url("../imgs/flags/jamaica.svg")!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CITEM*/
+/*.citem{
+  text-indent: 10px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+}*/
+
+.citem{
+    text-indent: 5px;
+}
+
+.Bahrain a.fmitem::after,
+.Bahrain:after{
+    background-image: url("../imgs/flags/bahrain.svg")!important;
+}
+
+.Abu.Dhabi a.fmitem::after,
+.Abu.Dhabi:after{
+    background-image: url("../imgs/flags/uae.png")!important;
+}
+
+.Monaco a.fmitem::after,
+.Monaco:after{
+    background-image: url("../imgs/flags/monaco.svg")!important;
+}
+
+.Eurovision:after,
+.European:after,
+.Europee:after,
+.Sei.Nazioni:after,
+.Euro:after,
+.Europa:after,
+.Europe:after,
+.Champions.League:after,
+.Euro2016:after,
+.Eurovision a.fmitem::after,
+.European a.fmitem::after,
+.Europee a.fmitem::after,
+.Sei.Nazioni a.fmitem::after,
+.Euro a.fmitem::after,
+.Europa a.fmitem::after,
+.Europe a.fmitem::after,
+.Champions.League a.fmitem::after,
+.Euro2016:after
+{
+    background-image: url("../imgs/flags/european-union.svg")!important;
+}
+
+.International:after,
+.Internazionale:after,
+.Internazionali:after,
+#cate_182.citem:after,
+#cat_18 a:after,
+.Federation.Cup:after,
+.Davis:after,
+.Grande.Slam:after,
+.Giovanili:after,
+.World:after,
+.League:after,
+#cate_257:after,
+.Oscar.del.Cinema:after,
+#cate_9973061 .mitem:after,
+.Calcio.Femminile:after,
+.Speciali.Campionati:after ,
+.Scontri.Diretti:after,
+.International a.fmitem::after,
+.Internazionale a.fmitem::after,
+.Internazionali a.fmitem::after,
+.Federation.Cup a.fmitem::after,
+.Davis a.fmitem::after,
+.Grande.Slam a.fmitem::after,
+.Giovanili a.fmitem::after,
+.World a.fmitem::after,
+.League a.fmitem::after,
+#cate_257:after,
+.Oscar.del.Cinema a.fmitem::after,
+#cate_9973061 .mitem:after,
+.Calcio.Femminile:after,
+.Speciali.Campionati:after ,
+.Scontri.Diretti:after,
+#cate_321:after,
+#cate_71004:after,
+#cate_71067:after,
+.Speciali.Basket:after,
+#cate_9973031:after,
+ul.International a.fmitem:after{
+    background-image: url("../imgs/flags/international.png")!important;
+}
+
+.UK:after,
+.Uk:after,
+.Gran.Bretagna:after,
+.UK a.fmitem::after,
+.Uk a.fmitem::after,
+.Gran.Bretagna a.fmitem::after{
+    background-image: url("../imgs/flags/granbretagna.png")!important;
+}
+
+.Russia a.fmitem::after,
+.Russia:after {
+    background-image: url("../imgs/flags/russia.png")!important;
+}
+
+.Cage a.fmitem::after,
+.Cage:after {
+    background-image: url("../imgs/flags/chage.png")!important;
+    border-radius: 90px;
+}
+
+.Ksw a.fmitem::after,
+.Ksw:after {
+    background-image: url("../imgs/flags/ksw.png")!important;
+    border-radius: 90px;
+}
+
+
+.PGA:after,
+.USA:after,
+.USA:after,
+.Usa:after,
+.Stati.Uniti:after,
+#cat_205  .citem:after,
+.United.States:after {
+    background-image: url("../imgs/flags/united-states-of-america.svg")!important;
+}
+
+#sportid_72 a.gitem:after{
+    content: '\e92f'!important;
+}
+
+.Viareggio:after,
+.Italiane:after,
+.Italiana:after,
+.Italia:after,
+.Italy:after,
+#cate_71060:after,
+#cate_9973102:after,
+.Serie.B:after,
+.Ammonizioni:after,
+.Viareggio a.fmitem::after,
+.Italiane a.fmitem::after,
+.Italiana a.fmitem::after,
+.Italia a.fmitem::after,
+.Italy a.fmitem::after,
+#cate_71060:after,
+#cate_9973102:after,
+.Serie.B a.fmitem::after,
+.Ammonizioni a.fmitem::after {
+    background-image: url("../imgs/flags/italy.svg")!important;
+}
+
+.Singapore a.fmitem::after,
+.SINGAPORE a.fmitem::after,
+.Singapore:after,
+.SINGAPORE:after{
+    background-image: url("../imgs/flags/singapore.png")!important;
+}
+
+#cate_32:after,
+#cate_140:after{
+    background-image: url("../imgs/flags/spa_por.png")!important;
+}
+
+.Germania:after,.Germany:after,.German:after,
+.Germania a.fmitem::after,.Germany a.fmitem::after,.German a.fmitem::after{
+    background-image: url("../imgs/flags/germany.svg")!important;
+}
+
+.Francia a.fmitem::after,.France a.fmitem::after,
+.Francia:after,.France:after{
+    background-image: url("../imgs/flags/france.svg")!important;
+}
+
+.Canada a.fmitem::after,
+.Canada:after{
+    background-image: url("../imgs/flags/canada.svg")!important;
+}
+
+.America a.fmitem::after,
+.America:after{
+    background-image: url("../imgs/flags/americas.png")!important;
+}
+
+.Nord.America a.fmitem::after,
+.Nord.America:after{
+    background-image: url("../imgs/flags/nordamerica.png")!important;
+}
+
+.OneAsia:after,
+.Asia:after,
+.OneAsia a.fmitem::after,
+.Asia a.fmitem::after{
+    background-image: url("../imgs/flags/asia.png")!important;
+}
+
+.Asia\&oceania:after,
+ul.Asia\&oceania a.fmitem:after{
+    background-image: url("../imgs/flags/asia&oceania.png")!important;
+}
+
+.WTA:after,
+.WTA:after{
+    background-image: url("../imgs/flags/wta.png")!important;
+}
+
+.ATP:after,
+.ATP:after,
+.Atp:after,
+ul.Atp a.fmitem::after{
+    background-image: url("../imgs/flags/atp.png")!important;
+}
+
+.Women:after,
+ul.Women a.fmitem::after{
+    background-image: url("../imgs/flags/woman_icon.png")!important;
+}
+
+.Men:after,
+ul.Men a.fmitem::after{
+    background-image: url("../imgs/flags/man_icon.png")!important;
+}
+
+.Ufc:after,
+ul.Ufc a.fmitem::after{
+    background-image: url("../imgs/flags/ufc.png")!important;
+}
+
+.WTA:after,
+.Wta:after,
+ul.Wta a.fmitem::after{
+    background-image: url("../imgs/flags/wta.png")!important;
+}
+
+.Challenger:after,
+#cate_119 .mitem:after,
+ul.Challenger a.fmitem::after {
+    background-image: url("../imgs/flags/atp.png")!important;
+}
+
+
+.Hopman:after,
+.ITF:after,
+.Itf:after,
+#cate_202 .mitem:after,
+ul.Itf a.fmitem::after{
+    background-image: url("../imgs/flags/itf.png")!important;
+}
+
+.Belgio:after,
+ul.Belgio a.fmitem::after{
+    background-image: url("../imgs/flags/belgium.svg")!important;
+}
+
+.Bangladesh:after,
+ul.Bangladesh a.fmitem::after{
+    background-image: url("../imgs/flags/bangladesh.svg")!important;
+}
+
+.Drivers:after,
+.Gran.Premio:after,
+.Moto:after,
+.Moto2:after,
+.Moto3:after,
+.Piloti:after,
+.Automobilismo:after,
+#cate_71084:after,
+ul.Automobilismo a.fmitem::after,
+ul.Gran.Premio a.fmitem::after,
+ul.Moto a.fmitem::after,
+ul.Moto2 a.fmitem::after,
+ul.Moto3 a.fmitem::after{
+    background-image: url("../imgs/flags/gp.png")!important;
+}
+
+.Africa:after,
+ul.Africa a.fmitem::after{
+    background-image: url("../imgs/flags/africa.png")!important;
+}
+
+.Spagna:after,.Spagna a.fmitem:after,.Spain:after, ul.Spain a.fmitem:after{
+    background-image: url("../imgs/flags/spain.svg")!important;
+}
+
+.The.Masters:after,
+.Inghilterra:after,
+.England:after,
+.Regno.Unito:after,
+ul.England a.fmitem::after,
+ul.Inghilterra a.fmitem::after,
+ul.The.Masters a.fmitem::after,
+ul.Regno.Unito a.fmitem::after {
+    background-image: url("../imgs/flags/england.svg")!important;
+}
+
+.Malaysia:after,
+ul.Malaysia a.fmitem::after{
+    background-image: url("../imgs/flags/malaysia.svg")!important;
+}
+
+.China:after,
+ul.China a.fmitem::after{
+    background-image: url("../imgs/flags/china.svg")!important;
+}
+
+.Player.Awards:after,
+ul.Player a.fmitem::after{
+    background-image: url("../imgs/flags/playeraw.png")!important;
+}
+
+.Turchia:after,
+ul.Turchia a.fmitem::after{
+    background-image: url("../imgs/flags/turkey.svg")!important;
+}
+
+.Scozia:after,
+.Scotland:after,
+ul.Scotland a.fmitem::after {
+    background-image: url("../imgs/flags/scozia.png")!important;
+}
+
+.Olanda:after,
+.Hollande:after,
+.Netherlands:after,
+ul.Netherlands a.fmitem::after{
+    background-image: url("../imgs/flags/netherlands.svg")!important;
+}
+
+.San.Marino:after,
+ul.San.Marino a.fmitem::after{
+    background-image: url("../imgs/flags/san-marino.svg")!important;
+}
+.Syria:after,
+ul.Syria a.fmitem::after{
+    background-image: url("../imgs/flags/syria.svg")!important;
+}
+
+#cat_18 a:after,
+.Ational:after,
+ul.International a.fmitem::after,
+ul.Ational a.fmitem::after {
+    background-image: url("../imgs/flags/international.png")!important;
+}
+
+#cat_95 a:after,
+ul.International a.fmitem::after {
+    background-image: url("../imgs/flags/international.png")!important;
+}
+.Rugby.Union:after,
+.Rugby.Union a.fmitem:after,
+ul.Rugby a.fmitem::after {
+    background-image: url("../imgs/flags/international.png")!important;
+}
+
+.citem:after, ul a.fmitem:after {
+    background-image: url("../imgs/flags/international.png");
+}

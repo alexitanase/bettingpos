@@ -1,0 +1,2246 @@
+body {
+    background: #363636;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+/*****************************
+HEADER TOP
+*****************************/
+.pos-header {
+    position: relative;
+    height: 60px;
+    white-space: nowrap;
+}
+.pos-header .pos-header-menu {
+    height: 100%;
+    width: calc(100% - 300px);
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+}
+.pos-header .pos-header-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.pos-header .pos-header-menu ul li {
+    height: calc(100% - 5px);
+    margin-top: 5px;
+    padding: 0 10px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 52px;
+    position: relative;
+    min-width: 75px;
+    overflow: hidden;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.pos-header .pos-header-menu ul li.active {
+    height: 100%;
+    margin-top: 0px;
+    z-index: 9999!important;
+    margin-left: -12px;
+}
+.pos-header .pos-header-menu ul li:nth-child(1) { z-index: 20; }
+.pos-header .pos-header-menu ul li:nth-child(2) { z-index: 19; }
+.pos-header .pos-header-menu ul li:nth-child(3) { z-index: 18; }
+.pos-header .pos-header-menu ul li:nth-child(4) { z-index: 17; }
+.pos-header .pos-header-menu ul li:nth-child(5) { z-index: 16; }
+.pos-header .pos-header-menu ul li:nth-child(6) { z-index: 15; }
+.pos-header .pos-header-menu ul li:nth-child(7) { z-index: 14; }
+.pos-header .pos-header-menu ul li:nth-child(8) { z-index: 13; }
+.pos-header .pos-header-menu ul li:nth-child(9) { z-index: 12; }
+.pos-header .pos-header-menu ul li:nth-child(10) { z-index: 11; }
+.pos-header .pos-header-menu ul li:nth-child(11) { z-index: 10; }
+.pos-header .pos-header-menu ul li:nth-child(12) { z-index: 9; }
+.pos-header .pos-header-menu ul li:nth-child(13) { z-index: 8; }
+.pos-header .pos-header-menu ul li:nth-child(14) { z-index: 7; }
+.pos-header .pos-header-menu ul li:nth-child(15) { z-index: 6; }
+.pos-header .pos-header-menu ul li:nth-child(16) { z-index: 5; }
+.pos-header .pos-header-menu ul li:nth-child(17) { z-index: 4; }
+.pos-header .pos-header-menu ul li:nth-child(18) { z-index: 3; }
+.pos-header .pos-header-menu ul li:nth-child(19) { z-index: 2; }
+.pos-header .pos-header-menu ul li:nth-child(20) { z-index: 1; }
+.pos-header .pos-header-menu ul li:first-child {
+    margin-left: 0px;
+}
+.pos-header .pos-header-menu ul li:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    height: 65px;
+    width: 37px;
+    background: #4a4a4a;
+    transform: rotateZ(350deg);
+    z-index: 1;
+    border-right: 2px solid #676769;
+}
+.pos-header .pos-header-menu ul li.active:after {
+    background: #000000;
+}
+.pos-header .pos-header-menu ul li .pos-header-lbl-master {
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100% - 20px);
+    height: 100%;
+    line-height: 52px;
+    border-top: 2px solid #676769;
+    border-bottom: 2px solid #676769;
+    background: #4a4a4a;
+}
+.pos-header .pos-header-menu ul li.active .pos-header-lbl-master {
+    background: #000000;
+    line-height: 60px;
+    border-bottom: 0px;
+}
+.pos-header .pos-header-menu ul li .pos-header-lbl-master:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    width: calc(100% + 8px);
+    height: 2px;
+    background: #676769;
+}
+.pos-header .pos-header-menu ul li .pos-header-lbl-master:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    width: calc(100% + 19px);
+    height: 2px;
+    background: #676769;
+}
+.pos-header .pos-header-menu ul li .pos-header-lbl-master .pos-header-lbl-live {
+    color: #ffdb1d;
+    font-size: 24px;
+    vertical-align: bottom;
+    margin-right: 5px;
+    position: relative;
+}
+.pos-header .pos-header-menu ul li .pos-header-lbl-master .pos-header-lbl-live::before {
+    content: "";
+    height: 20px;
+    width: 1px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    right: -5px;
+    top: 4px;
+}
+.pos-header .pos-header-logo {
+    width: 300px;
+    display: inline-block;
+    margin-left: -5px;
+    text-align: center;
+    font-size: 32px;
+    height: 100%;
+    line-height: 60px;
+    font-weight: bold;
+    color: #989898;
+}
+.pos-header .pos-header-logo .pos-logo-app {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background: #989898;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: #363636;
+}
+.pos-header .pos-header-menu ul li.pos-menu-opt-icon {
+    min-width: 150px;
+}
+.pos-header .pos-header-menu ul li.pos-menu-opt-icon.without-live-counter {
+    min-width: 110px;
+}
+.pos-header .pos-header-menu ul li.pos-menu-opt-icon .pos-header-lbl-master {
+    padding-left: 40px;
+}
+.pos-header .pos-header-menu ul li.pos-menu-opt-icon .pos-header-lbl-master span.pos-beticons {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 30px;
+    color: #c9c9c9;
+}
+.pos-header .pos-header-menu ul li.active.pos-menu-opt-icon .pos-header-lbl-master span.pos-beticons {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+.pos-header .pos-header-menu .pos-header-menu-left-btn {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 59px;
+    width: 40px;
+    background: #c9c9c9;
+    z-index: 99999;
+    line-height: 59px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.17);
+    box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.17);
+    cursor: pointer;
+    display: none;
+}
+.pos-header .pos-header-menu .pos-header-menu-right-btn {
+    position: fixed;
+    top: 0px;
+    right: 300px;
+    height: 59px;
+    width: 40px;
+    background: #c9c9c9;
+    z-index: 99999;
+    line-height: 59px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    -webkit-box-shadow: -5px 0px 5px 0px rgba(0,0,0,0.17);
+    -moz-box-shadow: -5px 0px 5px 0px rgba(0,0,0,0.17);
+    box-shadow: -5px 0px 5px 0px rgba(0,0,0,0.17);
+    cursor: pointer;
+}
+.pos-header .pos-header-menu ul li:last-child {
+    margin-right: 40px;
+}
+/*****************************
+SUBHEADER
+*****************************/
+.pos-subheader {
+    position: relative;
+    border-top: 1px solid #676769;
+    margin-top: -1px;
+    height: 40px;
+}
+.pos-subheader .pos-subhead-menu {
+    width: calc(100% - 280px);
+    background: #000;
+    height: 100%;
+    white-space: nowrap;
+}
+.pos-subheader .pos-subhead-menu .pos-subhead-menu-uplbl {
+    width: 300px;
+    height: 100%;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    vertical-align: top;
+    display: inline-block;
+}
+.pos-subheader .pos-subhead-menu .pos-subhead-menu-oddscnt {
+    width: calc(100% - 320px);
+    height: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    vertical-align: top;
+    display: inline-block;
+}
+.pos-subheader .pos-subhead-menu .pos-subhead-menu-oddscnt .pos-subhead-oddscnt-view {
+    display: none;
+    height: 100%;
+    text-align: right;
+    padding-right: 55px;
+}
+.pos-subheader .pos-subhead-menu .pos-subhead-menu-oddscnt .pos-subhead-oddscnt-view.active {
+    display: block;
+}
+.pos-subhead-oddscnt-view-oddgroup {
+    display: inline-block;
+    vertical-align: top;
+}
+.pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-oddtiname {
+    line-height: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+.pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list {
+    white-space: nowrap;
+    height: 20px;
+    margin-top: -7px;
+    text-align: center;
+}
+.pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list .pos-subhead-oddscnt-view-odds-lbln {
+    display: inline-block;
+    width: 50px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffd62b;
+    position: relative;
+}
+.pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list .pos-subhead-oddscnt-view-odds-lbln:first-child {
+    border-left: 1px solid #fff;
+}
+/*****************************
+TICKET
+*****************************/
+.pos-ticket {
+    position: fixed;
+    top: 58px;
+    right: 0px;
+    width: 300px;
+    height: calc(100% - 121px);
+    background: #000;
+    border-left: 1px solid #989898;
+    border-bottom: 1px solid #989898;
+}
+.pos-ticket .pos-ticket-header {
+    height: 41px;
+    line-height: 40px;
+    color: #fff;
+    background: #4a4a4a;
+    position: relative;
+    font-size: 18px;
+}
+.pos-ticket .pos-ticket-header span:first-child {
+    font-size: 40px;
+    vertical-align: middle;
+}
+.pos-ticket .pos-ticket-header span:last-child {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.pos-ticket .pos-ticket-no-odds {
+    margin: 1px;
+    padding: 5px;
+    background: #f67337;
+    color: #000;
+    font-size: 16px;
+}
+.pos-ticket .pos-ticket-no-credit {
+    margin: 1px;
+    padding: 5px;
+    background: #f67337;
+    color: #000;
+    font-size: 16px;
+    display: none;
+}
+.pos-ticket-footer .pos-ticket-type-system.active::before {
+    background: #fddb1d;
+}
+.pos-ticket-button-bv-value-lbl.pos-type-ticket-4 {
+    font-size: 15px;
+}
+.pos-ticket-integral-bet {
+    display: none;
+}
+.pos-ticket-button-bv-value-lbl.pos-type-ticket-4 .pos-ticket-integral-bet {
+    display: inline-flex;
+}
+.pos-ticket-button-bv-value-lbl.pos-type-ticket-4 span.pos-ticket-real-bet {
+    color: #fbf219;
+}
+/*****************************
+BODY
+*****************************/
+.pos-content {
+    position: fixed;
+    top: 99px;
+    left: 0px;
+    width: calc(100% - 300px);
+    height: calc(100% - 162px);
+    background: #000;
+    border-bottom: 1px solid #838383;
+}
+.pos-content .pos-content-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    white-space: nowrap;
+    height: 60px;
+    background: #000;
+}
+.pos-content .pos-content-footer .pos-content-position-control,
+.pos-window-extra-footer .pos-content-position-control {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: calc(100% - 10px);
+}
+.pos-content .pos-content-footer .pos-content-position-control .pos-content-position-btn,
+.pos-content .pos-content-footer .pos-content-position-control .pos-content-position-spliter,
+.pos-window-extra-footer .pos-content-position-control .pos-content-position-btn,
+.pos-window-extra-footer .pos-content-position-control .pos-content-position-spliter {
+    width: 75px;
+    height: 100%;
+    display: inline-block;
+    background: #868686;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    border-right: 1px solid #222;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-footer .pos-content-position-btn,
+.pos-content .pos-content-sport-menu .pos-sport-menu-footer .pos-content-position-spliter{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+    background: #868686;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 50px;
+    border-right: 1px solid #222;
+}
+.pos-content .pos-content-footer .pos-content-position-control .pos-content-position-btn,
+.pos-window-extra-footer .pos-content-position-control .pos-content-position-btn,
+.pos-content .pos-content-sport-menu .pos-sport-menu-footer .pos-content-position-btn{
+    cursor: pointer;
+}
+.pos-content .pos-content-footer .pos-content-position-control .pos-content-position-spliter,
+.pos-window-extra-footer .pos-content-position-control .pos-content-position-spliter,
+.pos-content .pos-content-sport-menu .pos-sport-menu-footer .pos-content-position-spliter {
+    background: #323232;
+}
+.pos-content .pos-content-sport-menu {
+    position: absolute;
+    left: 0px;
+    width: 300px;
+    height: calc(100% - 60px);
+    border-right: 1px solid #000;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-time {
+    margin: 0 2.5px 5px 2.5px;
+    background: #868686;
+    line-height: 32px;
+    padding: 0 7.5px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    height: 32px;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-time i.fa {
+    position: absolute;
+    right: 7.5px;
+    font-size: 30px;
+    top: 0px;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst {
+    display: none;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst.active {
+    display: block;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li {
+    position: relative;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li .pos-btn-select-allin {
+    position: absolute;
+    top: 0px;
+    height: 48px;
+    width: 48px;
+    right: 0px;
+    z-index: 5;
+    cursor: pointer;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > ul {
+    display: none;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > a {
+    position: relative;
+    background: #323232;
+    padding: 12.5px 10px 12.5px 45px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #565656;
+    font-size: 14px;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li:first-child > a {
+    border-top: 1px solid #565656;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > a > i.fa {
+    position: absolute;
+    left: 5px;
+    font-size: 22px;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li a .pos-sp-totalevts {
+    position: absolute;
+    top: 12px;
+    right: 30px;
+    font-size: 14px;
+}
+.pos-content-events-view, .pos-content-event-view {
+    display: none;
+}
+.pos-content-events-view.active, .pos-content-event-view.active {
+    display: block;
+}
+.pos-content-event-view .pos-content-event-list {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow: hidden;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-list {
+    height: calc(100% - 37px - 50px);
+    background: #323232;
+    overflow: hidden;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+}
+.pos-content-events-list {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    height: calc(100% - 60px);
+    background: #292929;
+    width: calc(100% - 300px);
+    overflow: hidden;
+}
+.pos-sport-menu-time-selector {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    background: #868686cc;
+    left: 2.5px;
+    top: 32px;
+    width: calc(100% - 5px);
+}
+.pos-sport-menu-time-selector.active {
+    display: block;
+}
+.pos-sport-menu-time-selector .pos-sport-menu-time-selector-item {
+    line-height: 32px;
+    padding: 0 7.5px;
+    color: #fff;
+    cursor: pointer;
+}
+.pos-sport-menu-time-selector .pos-sport-menu-time-selector-item.active {
+    background: #323232b3;
+}
+.pos-sport-menu-time-selector .pos-sport-menu-time-selector-item .pos-sm-time-indicator {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.pos-sport-menu-time-selector .pos-sport-menu-time-selector-item.active .pos-sm-time-indicator {
+    background: #fff;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > ul > li > a {
+    padding: 12.5px 65px 12.5px 50px;
+    font-size: 14px;
+    background: #000;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #565656;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > ul > li:last-child > a {
+    border-bottom: 2px solid #ffe746;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li.pos-sp-menu-opened > ul {
+    display: block;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > a::before,
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > ul > li > a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 7px;
+    top: 14px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+}
+ul.favorites li {
+    position: relative;
+}
+ul.favorites li::before {
+    content: "TOP";
+    position: absolute;
+    display: block;
+    width: 46px;
+    text-align: center;
+    background: red;
+    top: 14px;
+    transform: rotateZ(270deg);
+    z-index: 1;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    left: -15px;
+}
+.citem.favorites::after {
+    background: transparent !important;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > a.favorites {
+    padding: 12.5px 10px 12.5px 20px;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li.pos-sp-menu-opened > a > i.fa {
+    left: 0px;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li.pos-sp-menu-opened > a > i.fa:before {
+    content: "\f107"!important;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > ul > li.pos-opened-coi > a::before {
+    background: #fff;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li.pos-opened-ci > a::before {
+    background: #fff;
+}
+.pos-content-events-list .pos-sport-event-item-view {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    background: #0d406a;
+    border-bottom: 1px solid #052e4e;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event {
+    background: #186d1d;
+    border-bottom: 1px solid #005706;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-datetime {
+    position: relative;
+    width: 75px;
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+    background: #0a3659;
+    color: #fff;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-datetime {
+    background: #155d18;
+    color: #fff;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-datetime::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: calc(100% - 4px);
+    top: 2px;
+    right: 2px;
+    background: green;
+    position: absolute;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-datetime::after {
+    display: none;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-score {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #325b7f;
+    width: 120px;
+    font-weight: bold;
+    color: #ffe242;
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-details .pos-sport-event-item-view-details-score {
+    background: #358236;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-league {
+    position: absolute;
+    top: 5px;
+    font-size: 12px;
+    background: #0a3659;
+    padding: 2px 5px;
+    left: 0px;
+    max-width: 140px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-details .pos-sport-event-item-view-details-league {
+    background: #155d18;
+    color: #fff;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-name {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details {
+    position: relative;
+    width: calc(100% - 570px);
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    background: #0d406a;
+    padding: 0 5px;
+    color: #fff;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-details {
+    background: #186d1d;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-odds {
+    width: 440px;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    text-align: left;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-moddsv {
+    vertical-align: top;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    width: 55px;
+    height: 60px;
+    line-height: 60px;
+    background: #325b7f;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-moddsv {
+    background: #3e883f;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-moddsv::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    background: #0d406a;
+    z-index: 9;
+    transform: rotateZ(-65deg);
+    right: -70px;
+    bottom: -25px;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-moddsv::before {
+    background: #186d1d;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-moddsv::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    background: #0d406a;
+    z-index: 10;
+    transform: rotateZ(65deg);
+    right: -70px;
+    top: -25px;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-moddsv::after {
+    background: #186d1d;
+}
+.pos-sport-events-view-optlst {
+    display: none;
+}
+.pos-sport-events-view-optlst.active {
+    display: block;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-name .pos-sport-event-item-view-details-name-team {
+    width: calc(50% - 10px);
+    display: inline-block;
+    vertical-align: top;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-name .pos-sport-event-item-view-details-name-team:first-child {
+    text-align: right;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-name .pos-sport-event-item-view-details-name-team:last-child {
+    text-align: left;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-name-spliter {
+    width: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list {
+    margin-top: 0px;
+    height: 60px;
+    display: inline-block;
+    line-height: 0px;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list .pos-subhead-oddscnt-view-odds-lbln:first-child {
+    border-left: 0px;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list .pos-subhead-oddscnt-view-odds-lbln {
+    background: #325b7f;
+    color: #fff;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    border-right: 1px solid #052e4e;
+    font-weight: bold;
+    position: relative;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list .pos-subhead-oddscnt-view-odds-lbln.handicap {
+    background: #0a3659;
+}
+.oddlocked {
+    background: #1a476f !important;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list .pos-subhead-oddscnt-view-odds-lbln {
+    background: #3e883f;
+    color: #fff;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    border-right: 1px solid #005706;
+    font-weight: bold;
+    position: relative;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-subhead-oddscnt-view-oddgroup .pos-subhead-oddscnt-view-odds-list .pos-subhead-oddscnt-view-odds-lbln.handicap {
+    background: #356a35;
+}
+.pos-item-live-event .oddlocked {
+    background: #255226 !important;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > a .pos-sp-totalevts-live,
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li a .pos-sp-totalevts-live{
+    position: absolute;
+    right: 55px;
+    color: #ffdb1b;
+    display: none;
+}
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li > a .pos-sp-totalevts-live::before,
+.pos-content .pos-content-sport-menu .pos-sport-menu-optlst > ul > li a .pos-sp-totalevts-live::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 14px;
+    width: 1px;
+    background: #fff;
+    right: -5px;
+    top: 3px;
+}
+.all-odds-locked {
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background: #255226;
+}
+.pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-actualtime {
+    position: absolute;
+    top: 5px;
+    font-size: 12px;
+    background: #0a3659;
+    padding: 2px 5px;
+    right: 0px;
+}
+.pos-content-events-list .pos-sport-event-item-view.pos-item-live-event .pos-sport-event-item-view-details .pos-sport-event-item-view-details-actualtime {
+    background: #155d18;
+}
+.odd-up-indicator {
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 60px solid #fff;
+    left: 0px;
+    opacity: 0.25;
+}
+.odd-down-indicator {
+    position: absolute;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 60px solid #fff;
+    left: 0px;
+    opacity: 0.25;
+}
+/*EVENT VIEW*/
+.pos-event-details-head {
+    background: #0d406a;
+    border-top: 5px solid #000;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+.pos-event-details-head .pos-event-details-tophead {
+    width: calc(100% - 200px);
+    margin: auto;
+    position: relative;
+    min-height: 60px;
+}
+.pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-timeinfo {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background: #083151;
+    color: #fff;
+    padding-left: 90px;
+    text-align: left;
+    line-height: 24px;
+    font-size: 12px;
+}
+.pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-league {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    background: #083151;
+    color: #fff;
+    padding-right: 90px;
+    text-align: right;
+    line-height: 24px;
+    font-size: 12px;
+}
+.pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-team-logo-home {
+    position: absolute;
+    top: 0px;
+    width: 80px;
+    height: 100px;
+    background: #083151;
+    left: 0px;
+    text-align: center;
+    z-index: 1;
+}
+.pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-team-logo-home img {
+    width: 90%;
+    margin-top: 10px;
+}
+.pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-team-logo-away {
+    position: absolute;
+    top: 0px;
+    width: 80px;
+    height: 100px;
+    background: #083151;
+    right: 0px;
+    text-align: center;
+    z-index: 1;
+}
+.pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-team-logo-away img {
+    width: 90%;
+    margin-top: 10px;
+}
+.pos-event-details-tophead-scoredetails {
+    white-space: nowrap;
+}
+.pos-event-details-tophead-scoredetails .pos-event-details-tophead-scoredetails-team {
+    width: calc(50% - 50px);
+    display: inline-block;
+    color: #fff;
+}
+.pos-event-details-tophead-scoredetails .pos-event-details-tophead-scoredetails-team:first-child {
+    text-align: right;
+}
+.pos-event-details-tophead-scoredetails .pos-event-details-tophead-scoredetails-team:last-child {
+    text-align: left;
+}
+.pos-event-details-tophead-scoredetails .pos-event-details-tophead-scoredetails-spliter {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffde43;
+    font-size: 24px;
+}
+.pos-event-details-head .pos-event-details-subhead {
+    min-height: 100px;
+    background: #0a3659;
+    position: relative;
+}
+.pos-event-odds-groups-tabs {
+    border-top: 10px solid #000;
+    white-space: nowrap;
+    border-bottom: 15px solid #0a3659;
+}
+.pos-event-odds-groups-tabs .pos-event-odds-groups-tabs-item {
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pos-event-odds-groups-tabs .pos-event-odds-groups-tabs-item span {
+    color: #ffde47;
+    margin-left: 5px;
+}
+.pos-event-odds-groups-tabs .pos-event-odds-groups-tabs-item::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 18px;
+    background: #fff;
+    top: 8px;
+    right: -2.5px;
+}
+.pos-event-odds-groups-tabs .pos-event-odds-groups-tabs-item.active {
+    background: #0a3659;
+}
+.pos-event-odds-groups-tabs .pos-event-odds-groups-tabs-item.active::after {
+    display: none;
+}
+.pos-event-odd-group-tab-content {
+    display: none;
+}
+.pos-event-odd-group-tab-content.active {
+    display: block;
+}
+.pos-event-odd-group-item-list {
+    background: #0a3659;
+    border-bottom: 2px solid #062b48;
+}
+.pos-event-odd-group-item-list:first-child {
+    border-top: 2px solid #000;
+}
+.pos-event-odd-group-item-list .pos-event-odd-group-name {
+    color: #fff;
+    width: 50%;
+    line-height: 60px;
+    vertical-align: top;
+    display: inline-block;
+}
+.pos-event-odd-group-item-list .pos-event-odd-group-name i {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.pos-event-odd-group-item-list .pos-event-odd-group-oddsgp {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.pos-event-odd-group-item-list .pos-event-odd-group-oddsgp .pos-event-odd-item-quote {
+    display: inline-block;
+    vertical-align: top;
+    background: #3d6385;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #fff;
+    position: relative;
+    border-right: 5px solid #0a3659;
+    cursor: pointer;
+}
+.pos-event-odd-group-item-list .pos-event-odd-group-oddsgp .pos-event-odd-item-quote .pos-event-odd-item-quote-name {
+    width: calc(100% - 50px);
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 60px;
+    color: #ffde47;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 60px;
+    height: 60px;
+    margin-bottom: -18px;
+    text-align: center;
+}
+.pos-event-odd-group-item-list .pos-event-odd-group-oddsgp .pos-event-odd-item-quote .pos-event-odd-item-quote-name::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 55px;
+    position: absolute;
+    right: 55px;
+    background: #062b48;
+    z-index: 2;
+    top: 2.5px;
+}
+.pos-event-odd-group-item-list .pos-event-odd-group-oddsgp .pos-event-odd-item-quote span {
+    display: inline-block;
+    width: 50px;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    vertical-align: top;
+}
+.liveEventView .pos-event-details-head {
+    background: #358236;
+}
+.liveEventView .pos-event-details-head .pos-event-details-subhead {
+    background: #186d1d;
+}
+.liveEventView .pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-timeinfo {
+    background: #0c6011;
+}
+.liveEventView .pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-league {
+    background: #0c6011;
+}
+.liveEventView .pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-team-logo-home,
+.liveEventView .pos-event-details-head .pos-event-details-tophead .pos-event-details-tophead-team-logo-away {
+    background: #0c6011;
+}
+.liveEventView .pos-event-odds-groups-tabs {
+    border-bottom: 15px solid #186d1d;
+}
+.liveEventView .pos-event-odds-groups-tabs .pos-event-odds-groups-tabs-item.active {
+    background: #186d1d;
+}
+.liveEventView .pos-event-odd-group-item-list {
+    background: #186d1d;
+    border-bottom: 2px solid #0c6011;
+}
+.liveEventView .pos-event-odd-group-item-list .pos-event-odd-group-oddsgp .pos-event-odd-item-quote {
+    background: #3e883f;
+    border-right: 5px solid #186d1d;
+}
+.liveEventView .pos-event-odd-group-item-list .pos-event-odd-group-oddsgp .pos-event-odd-item-quote .pos-event-odd-item-quote-name::after {
+    background: #0c6011;
+}
+.liveEventView .oddlocked {
+    background: #297a2b !important;
+}
+.pos-event-details-prev-event {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+.pos-event-details-next-event {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+/*****************************
+FOOTER
+*****************************/
+.pos-footer-acts {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    height: 60px;
+    background: #000;
+    border-top: 1px solid #989898;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+.pos-footer-acts .button-pos-act {
+    display: inline-block;
+    color: #fff;
+    width: 70px;
+    height: 50px;
+    vertical-align: top;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    background: #4a4a4a;
+    cursor: pointer;
+}
+.pos-footer-acts .button-pos-act > span:first-child {
+    font-size: 40px;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl {
+    width: 120px;
+    font-size: 14px;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl > span:first-child {
+    font-size: 24px;
+    display: block;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl-login {
+    width: 150px;
+    font-size: 14px;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl-login > span:first-child {
+    font-size: 24px;
+    display: block;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl-credit.pos-btn-lg {
+    width: 150px;
+    font-size: 14px;
+    position: relative;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl-credit.pos-btn-lg span:first-child {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 26px;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl-credit.pos-btn-lg span:nth-child(2) {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+}
+.pos-footer-acts .button-pos-act.btn-with-lbl-credit.pos-btn-lg span:last-child {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.pos-btn-disabled {
+    color: #adadad !important;
+}
+.pos-ticket-type-system.pos-btn-disabled::before {
+    background: #adadad !important;
+}
+.pos-footer-acts .pos-details-software {
+    display: inline-block;
+    color: #fff;
+    width: calc(100% - 705px);
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+.pos-ticket-footer {
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    width: calc(100% - 2px);
+}
+.pos-ticket-footer .pos-ticket-type-system {
+    width: calc(100% - 120px);
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    background: #545454;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.pos-ticket-footer .pos-ticket-type-system::before {
+    content: "";
+    display: block;
+    width: 50px;
+    border-radius: 2px;
+    height: 4px;
+    background: #fff;
+    top: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.pos-ticket-footer .pos-ticket-button-scroll {
+    width: 60px;
+    display: inline-block;
+    background: #545454;
+    height: 50px;
+    vertical-align: top;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    border-left: 2px solid #2a2a2a;
+    cursor: pointer;
+    font-size: 36px;
+}
+.pos-ticket-coupon-value-bet {
+    border-top: 2px solid #2a2a2a;
+    white-space: nowrap;
+}
+.pos-ticket-coupon-value-bet .pos-ticket-button-bv-value {
+    width: 59px;
+    height: 50px;
+    background: #545454;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+.pos-ticket-coupon-value-bet .pos-ticket-button-bv-value-lbl {
+    width: calc(100% - 117px);
+    display: inline-block;
+    border-left: 2px solid #2a2a2a;
+    border-right: 2px solid #2a2a2a;
+    height: 50px;
+    vertical-align: top;
+    line-height: 50px;
+    background: #545454;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.pos-ticket-coupon-value-bet .pos-ticket-button-bv-value:last-child {
+    width: 59px;
+    border-right: 1px solid #2a2a2a;
+}
+.pos-ticket-gobet-btn {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    background: #545454;
+    color: #fff;
+    border-top: 2px solid #2a2a2a;
+    cursor: pointer;
+}
+.pos-ticket .pos-ticket-body {
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    width: 100%;
+    height: calc(100% - 297px);
+    overflow: hidden;
+}
+.pos-ticket-odd-item {
+    background: #10406a;
+    color: #fff;
+    padding: 2.5px;
+    position: relative;
+    border-bottom: 1px solid #383838;
+}
+.pos-ticket-odd-item span.pos-ticket-odd-item-en {
+    display: inline-block;
+    width: 85%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: -6px;
+    font-size: 14px;
+}
+.pos-ticket-odd-item span.pos-ticket-odd-item-cn {
+    display: inline-block;
+    width: 85%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: -6px;
+    font-size: 12px;
+}
+.pos-ticket-odd-item-oddslst-itm {
+    position: relative;
+}
+.pos-ticket-odd-item-oddslst-itm span:nth-child(3) {
+    position: absolute;
+    right: 2.5px;
+    font-weight: bold;
+}
+.pos-ticket-odd-item-oddslst-itm span:nth-child(2) {
+    margin-left: 5px;
+}
+.pos-ticket-odd-item > span.fa-times {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    background: #325b7f;
+    cursor: pointer;
+}
+.pos-ticket-odd-item.pos-ticket-livebet {
+    background: #3f6f1d;
+}
+.pos-ticket-odd-item.pos-ticket-livebet > span.fa-times {
+    background: #4a8236;
+}
+/*****************************
+COVER START
+*****************************/
+.pos-cover-start {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #363636;
+    z-index: 9999999;
+    cursor: pointer;
+}
+.pos-cover-start .pos-cover-start-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.pos-cover-start .pos-cover-start-message .pos-logo-app {
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    padding: 0 20px;
+    background: #989898;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: #363636;
+    font-size: 80px;
+    width: auto;
+    margin-bottom: 20px;
+}
+/*****************************
+CUSTOM MESSAGES GENERAL
+*****************************/
+.pos-alert-message {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: rgba(0,0,0,0.65);
+    display: none;
+}
+.pos-alert-message .pos-alert-message-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    transform: translate(-50%, -50%);
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+.pos-alert-message .pos-alert-message-content .pos-alert-message-type {
+    font-size: 46px;
+}
+.pos-alert-message .pos-alert-message-content .pos-alert-message-button {
+    padding: 5px 10px;
+    background: #2a2a2a;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pos-alert-message-white {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: rgba(255,255,255,0.65);
+    display: none;
+}
+.pos-alert-message-white .pos-alert-message-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    transform: translate(-50%, -50%);
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.pos-alert-message-white .pos-alert-message-content .pos-alert-message-header {
+    font-size: 20px;
+    line-height: 50px;
+    margin-top:-10px;
+    margin-left:-10px;
+    width: calc(100% + 20px);
+    border-bottom:1px solid #555;
+    background: #ddd;
+    color: #000;
+}
+.pos-alert-message-white .pos-alert-message-content .pos-alert-message-type {
+    font-size: 46px;
+}
+.pos-alert-message-white .pos-alert-message-content .pos-alert-message-button {
+    padding: 5px 15px;
+    background: #555;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+.pos-preloader-content {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: rgba(255,255,255,0.65);
+    display: none;
+}
+.pos-preloader-content .pos-alert-message-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    transform: translate(-50%, -50%);
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.pos-preloader-content .pos-alert-message-content .pos-alert-message-type {
+    font-size: 46px;
+}
+/*****************************
+GENERAL
+*****************************/
+.event-view .pos-subheader {
+    display: none;
+}
+.event-view .pos-content {
+    top: 59px;
+    height: calc(100% - 122px);
+}
+/*****************************
+WINDOW EXTRA
+*****************************/
+.pos-window-extra {
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background: #cbcbcb;
+}
+.pos-window-extra .pos-window-extra-head {
+    width: 100%;
+    line-height: 46px;
+    background: #dcdcdc;
+    border-bottom: 1px solid #000;
+    padding: 0 25px;
+    position: relative;
+    font-size: 18px;
+}
+.pos-window-extra .pos-window-extra-head > span {
+    font-size: 32px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+}
+.pos-window-extra .pos-window-extra-body {
+    position: absolute;
+    top: 47px;
+    width: 100%;
+    height: calc(100% - 127px);
+    padding: 25px;
+    overflow: hidden;
+}
+.pos-login-form-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+}
+.pos-login-form-area .pos-input-elm {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.pos-login-form-area .pos-input-elm input {
+    border: 0px;
+    background: #272727;
+    height: 40px;
+    color: #fff;
+    padding: 0 10px;
+}
+.pos-input-group:nth-child(2) {
+    margin-top: 15px;
+}
+.pos-login-groups {
+    display: inline-block;
+    vertical-align: top;
+}
+.pos-login-form-area .pos-input-label {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 40px;
+    width: 130px;
+    text-transform: uppercase;
+}
+.pos-input-login-btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+    width: 60px;
+    line-height: 95px;
+    text-align: center;
+    background: #555;
+    color: #fff;
+    cursor: pointer;
+}
+.pos-window-extra-footer {
+    position: absolute;
+    bottom: 0px;
+    height: 80px;
+    left: 0px;
+    width: 100%;
+    background: #cbcbcb;
+    padding: 0 25px;
+}
+.cK.cKKey, .cK.cKFunction {
+    border-radius: 0px;
+}
+.pos-window-extra.pos-keyboard-opened .pos-window-extra-body {
+    height: calc(100% - 397px);
+}
+.pos-keyboard-opened .pos-window-extra-footer {
+    height: 350px;
+}
+.pos-score-head-nav {
+    height: 60px;
+    width: calc(100% - 300px);
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    position: relative;
+}
+.pos-score-head-nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+.pos-score-head-nav ul li {
+    height: calc(100% - 5px);
+    margin-top: 5px;
+    padding: 0 10px;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 52px;
+    position: relative;
+    min-width: 75px;
+    overflow: hidden;
+    margin-left: -10px;
+    cursor: pointer;
+}
+.pos-score-head-nav ul li.active {
+    height: 100%;
+    margin-top: 0px;
+    z-index: 9999!important;
+    margin-left: -12px;
+}
+.pos-score-head-nav ul li:nth-child(1) {
+    z-index: 20;
+}
+.pos-score-head-nav ul li:first-child {
+    margin-left: 0px;
+}
+.pos-score-head-nav ul li.pos-menu-opt-icon {
+    min-width: 80px;
+}
+.pos-score-head-nav ul li:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    height: 65px;
+    width: 37px;
+    background: #4a4a4a;
+    transform: rotateZ(350deg);
+    z-index: 1;
+    border-right: 2px solid #676769;
+}
+.pos-score-head-nav ul li.active:after {
+    background: #000000;
+}
+.pos-score-head-nav ul li .pos-header-lbl-master {
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100% - 20px);
+    height: 100%;
+    line-height: 52px;
+    border-top: 2px solid #676769;
+    border-bottom: 2px solid #676769;
+    background: #4a4a4a;
+}
+.pos-score-head-nav ul li.active .pos-header-lbl-master {
+    background: #000000;
+    line-height: 60px;
+    border-bottom: 0px;
+}
+.pos-score-head-nav ul li.pos-menu-opt-icon .pos-header-lbl-master {
+    padding-left: 40px;
+}
+.pos-score-head-nav ul li .pos-header-lbl-master:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    width: calc(100% + 8px);
+    height: 2px;
+    background: #676769;
+}
+.pos-score-head-nav ul li .pos-header-lbl-master:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    width: calc(100% + 19px);
+    height: 2px;
+    background: #676769;
+}
+.pos-score-head-nav ul li.pos-menu-opt-icon .pos-header-lbl-master span.pos-beticons {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 30px;
+    color: #c9c9c9;
+}
+.pos-score-head-nav ul li.active.pos-menu-opt-icon .pos-header-lbl-master span.pos-beticons {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+.pos-score-head-nav ul li .pos-header-lbl-master .pos-header-lbl-live {
+    color: #ffdb1d;
+    font-size: 24px;
+    vertical-align: bottom;
+    margin-right: 5px;
+    position: relative;
+}
+.pos-score-head-nav ul li:nth-child(1) { z-index: 20; }
+.pos-score-head-nav ul li:nth-child(2) { z-index: 19; }
+.pos-score-head-nav ul li:nth-child(3) { z-index: 18; }
+.pos-score-head-nav ul li:nth-child(4) { z-index: 17; }
+.pos-score-head-nav ul li:nth-child(5) { z-index: 16; }
+.pos-score-head-nav ul li:nth-child(6) { z-index: 15; }
+.pos-score-head-nav ul li:nth-child(7) { z-index: 14; }
+.pos-score-head-nav ul li:nth-child(8) { z-index: 13; }
+.pos-score-head-nav ul li:nth-child(9) { z-index: 12; }
+.pos-score-head-nav ul li:nth-child(10) { z-index: 11; }
+.pos-score-head-nav ul li:nth-child(11) { z-index: 10; }
+.pos-score-head-nav ul li:nth-child(12) { z-index: 9; }
+.pos-score-head-nav ul li:nth-child(13) { z-index: 8; }
+.pos-score-head-nav ul li:nth-child(14) { z-index: 7; }
+.pos-score-head-nav ul li:nth-child(15) { z-index: 6; }
+.pos-score-head-nav ul li:nth-child(16) { z-index: 5; }
+.pos-score-head-nav ul li:nth-child(17) { z-index: 4; }
+.pos-score-head-nav ul li:nth-child(18) { z-index: 3; }
+.pos-score-head-nav ul li:nth-child(19) { z-index: 2; }
+.pos-score-head-nav ul li:nth-child(20) { z-index: 1; }
+.pos-score-head-nav ul li:first-child {
+    margin-left: 0px;
+}
+.pos-score-subhead-nav {
+    background: #000;
+    color: #fff;
+    padding: 0 15px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+table.pos-score-table {
+    width: 100%;
+}
+table.pos-score-table thead tr {
+    background: #7c7c7c;
+    color: #fff;
+}
+table.pos-score-table thead tr th {
+    padding: 5px 15px;
+}
+
+table.pos-score-table tbody tr {
+    background: #a0a0a0;
+}
+table.pos-score-table tbody tr:nth-child(even) {
+    background: #b0b0b0;
+}
+table.pos-score-table tbody tr td {
+    padding: 5px 15px;
+    color: #292c2b;
+}
+.pos-window-extra-footer .pos-content-position-control {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    height: 60px;
+}
+.pos-window-extra-footer .pos-content-position-control .pos-content-position-btn {
+    line-height: 60px;
+    border-right: 1px solid #cbcbcb;
+}
+.pos-window-extra-footer .pos-content-position-control .pos-content-position-spliter {
+    vertical-align: top;
+}
+.pos-language-selector {
+    position: absolute;
+    bottom: 54px;
+    left: 84px;
+    width: 120px;
+    background: #4a4a4ae0;
+    color: #fff;
+    display: none;
+}
+.pos-language-selector .pos-language-item {
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.pos-language-selector .pos-language-item.selected {
+    background: #000000ad;
+}
+.pos-content-event-view > .pos-content-footer > .pos-content-position-btn {
+    width: 70px;
+    height: 50px;
+    background: #868686;
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.pos-ticket-bet-infoline {
+    background: #000;
+    color: #949494;
+    font-size: 14px;
+    padding: 2.5px;
+    position: relative;
+}
+.pos-ticket-bet-infoline:nth-child(even) {
+    background: #1c1c1c;
+}
+.pos-ticket-bet-infoline > span {
+    position: absolute;
+    right: 2.5px;
+}
+.pos-ticket-bet-infoline > span.posibleWinLbl {
+    font-size: 16px;
+    top: 1px;
+    font-weight: bold;
+    color: #ff0;
+}
+
+.pos-subhead-oddscnt-view-odds-lbln.pos-oddv-selected {
+    background: #fddb1d!important;
+    color: #000!important;
+}
+.oddBtnSelector.pos-event-odd-item-quote.pos-oddv-selected {
+    background: #fddb1d!important;
+    color: #000!important;
+}
+.oddBtnSelector.pos-event-odd-item-quote.pos-oddv-selected .pos-event-odd-item-quote-name {
+    color: #000!important;
+}
+.pos-window-extra-body-75 {
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    width: calc(75% - 30px);
+    height: calc(100% - 127px);
+    padding: 25px;
+    overflow: hidden;
+    background: #fff;
+}
+.pos-window-extra-body-25 {
+    position: absolute;
+    top: 70px;
+    left: calc(75% + 15px);
+    width: calc(25% - 35px);
+    height: calc(100% - 127px);
+    padding: 25px;
+    overflow: hidden;
+    background: #fff;
+}
+.pos-window-extra-body-25 .pos-logo-app {
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 35px;
+    background: #989898;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: #ffffff;
+    font-size: 60px;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+p.pos-checkticket-lbl-info {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a2a2a;
+}
+.pos-checkticket-inputs {
+    margin-top: 35px;
+}
+.pos-checkticket-ticketid {
+    width: 97%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+}
+.pos-checkticket-code {
+    width: calc(30% - 30px);
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.pos-checkticket-inputs .pos-virtualinput {
+    line-height: 50px;
+    background: #2a2a2a;
+    height: 50px;
+    padding: 0 10px;
+    color: #fff;
+    padding-left:50px;
+    position: relative;
+}
+.pos-checkticket-inputs .pos-virtualinput:before {
+    content: "TKT-";
+    position: absolute;
+    left: 8px;
+}
+.pos-virtual-numpad {
+    margin-top: 45px;
+}
+.pos-virtual-numpad .pos-virtual-numpad-line {
+    white-space: nowrap;
+}
+.pos-virtual-numpad .pos-virtual-numpad-line .pos-virtual-numeric-key {
+    width: calc(33.3332% - 13px);
+    display: inline-block;
+    line-height: 65px;
+    margin-right: 10px;
+    text-align: center;
+    background: #555;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.pos-ticket-lbl-id {
+    background: #fddd22;
+    line-height: 32px;
+    padding: 0 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.pos-ticket-details-table {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.pos-ticket-details-table .pos-ticket-details-line {
+    border-top: 1px solid #000;
+    position: relative;
+    padding: 2.5px;
+}
+.pos-ticket-details-table .pos-ticket-details-line:last-child {
+    border-bottom: 1px solid #000;
+}
+.pos-ticket-details-table .pos-ticket-details-line span {
+    position: absolute;
+    right: 5px;
+}
+.pos-lblstatus-checkticket {
+    display: block;
+    margin: auto;
+    width: 100px;
+    line-height: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #fddd22;
+}
+.pos-table-ticket {
+    width: 100%;
+}
+.pos-table-ticket thead tr {
+    background: #555;
+    color: #fff;
+}
+.pos-table-ticket thead tr td:first-child {
+    width: 50%;
+}
+.pos-table-ticket tbody tr td:first-child {
+    width: 50px;
+}
+.pos-table-ticket tbody tr td:first-child span {
+    width: 50px;
+    font-size: 46px;
+}
+.pos-table-ticket tbody tr:nth-child(even) {
+    background: #b0b0b0;
+}
+.pos-table-content-scroll {
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+.pos-checkticket-table-acts {
+    margin-top: 15px;
+    text-align: right;
+}
+.pos-button-ct-action {
+    width: 50px;
+    line-height: 50px;
+    font-size: 32px;
+    color: #fff;
+    background: #555;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.pos-cashout-ticket-btn {
+    line-height: 60px;
+    position: relative;
+    padding: 0 10px;
+    background: #e87121;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.pos-cashout-ticket-btn > i {
+    display: inline-block;
+    height: 100%;
+    line-height: 60px;
+    width: 40px;
+    text-align: center;
+    border-left: 1px solid #96440d;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+.pos-payment-ticket-btn {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0 10px;
+    vertical-align: top;
+    margin-top: 10px;
+    background: #555;
+    color: #c0c0c0;
+}
+.pos-ticket-accept-sys {
+    display: none;
+}
+.pos-ticket-accept-sys .pos-ticket-accept-reserve {
+    width: 100%;
+    text-align: center;
+    background: #868686;
+    color: #fff;
+    padding: 10px 0;
+}
+.pos-ticket-accept-sys .pos-ticket-accept-details {
+    text-align: center;
+    padding: 12px;
+    background: #4a4a4a;
+    color: #fff;
+}
+.pos-ticket-accept-sys .pos-ticket-accept-details span {
+    color: #fddb1d;
+}
+.pos-ticket-accept-sys .pos-ticket-reserve-actions {
+    white-space: nowrap;
+}
+.pos-ticket-accept-sys .pos-ticket-reserve-actions > div {
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.pos-ticket-accept-sys .pos-ticket-reserve-actions > div:first-child {
+    background: #f00;
+    font-weight: bold;
+}
+.pos-ticket-accept-sys .pos-ticket-reserve-actions > div:last-child {
+    background: #4d883f;
+    margin-left: -4px;
+    font-weight: bold;
+}
+.pos-table-ticket tbody tr {
+    border-bottom: 1px solid #555555;
+}
+.pos-tracker-content {
+    width: 70%;
+    margin: auto;
+}
+
+/**************************************/
+.lds-default {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-default div {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+    animation: lds-default 1.2s linear infinite;
+}
+.lds-default div:nth-child(1) {
+    animation-delay: 0s;
+    top: 37px;
+    left: 66px;
+}
+.lds-default div:nth-child(2) {
+    animation-delay: -0.1s;
+    top: 22px;
+    left: 62px;
+}
+.lds-default div:nth-child(3) {
+    animation-delay: -0.2s;
+    top: 11px;
+    left: 52px;
+}
+.lds-default div:nth-child(4) {
+    animation-delay: -0.3s;
+    top: 7px;
+    left: 37px;
+}
+.lds-default div:nth-child(5) {
+    animation-delay: -0.4s;
+    top: 11px;
+    left: 22px;
+}
+.lds-default div:nth-child(6) {
+    animation-delay: -0.5s;
+    top: 22px;
+    left: 11px;
+}
+.lds-default div:nth-child(7) {
+    animation-delay: -0.6s;
+    top: 37px;
+    left: 7px;
+}
+.lds-default div:nth-child(8) {
+    animation-delay: -0.7s;
+    top: 52px;
+    left: 11px;
+}
+.lds-default div:nth-child(9) {
+    animation-delay: -0.8s;
+    top: 62px;
+    left: 22px;
+}
+.lds-default div:nth-child(10) {
+    animation-delay: -0.9s;
+    top: 66px;
+    left: 37px;
+}
+.lds-default div:nth-child(11) {
+    animation-delay: -1s;
+    top: 62px;
+    left: 52px;
+}
+.lds-default div:nth-child(12) {
+    animation-delay: -1.1s;
+    top: 52px;
+    left: 62px;
+}
+@keyframes lds-default {
+    0%, 20%, 80%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+
+/*************************************
+**************************************
+**************************************/
+@media only screen and (max-width: 1100px) {
+    .pos-content .pos-content-sport-menu {
+        width: 200px;
+    }
+    .pos-content {
+        width: calc(100% - 220px);
+    }
+    .pos-content-events-list {
+        left: 200px;
+        width: calc(100% - 200px);
+    }
+    .pos-ticket {
+        width: 220px;
+    }
+    .pos-subheader .pos-subhead-menu .pos-subhead-menu-uplbl {
+        width: 200px;
+    }
+    .pos-subheader .pos-subhead-menu {
+        width: calc(100% - 100px);
+    }
+    .pos-ticket .pos-ticket-no-credit, .pos-ticket .pos-ticket-no-odds {
+        font-size: 12px;
+    }
+    .pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-name {
+        margin-top: 18px;
+        font-size: 12px;
+    }
+    .pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-league {
+        bottom: 0px;
+        font-size: 12px;
+        top: unset;
+    }
+    .pos-content-events-list .pos-sport-event-item-view .pos-sport-event-item-view-details .pos-sport-event-item-view-details-score {
+        padding: 1px;
+        font-size: 10px;
+    }
+    .pos-header .pos-header-logo {
+        width: 220px;
+    }
+    .pos-header .pos-header-menu {
+        height: 100%;
+        width: calc(100% - 220px);
+    }
+    .pos-header .pos-header-menu .pos-header-menu-right-btn {
+        position: fixed;
+        top: 0px;
+        right: 220px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    body {
+        opacity: 0;
+    }
+}
